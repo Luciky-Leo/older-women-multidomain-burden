@@ -2,7 +2,7 @@
 
 ## Title
 
-Code and aggregate materials for multidomain burden among older women across seven international ageing cohorts
+Code and aggregate materials for multidomain burden among midlife and older women across seven international ageing cohorts
 
 ## Version
 
@@ -20,7 +20,7 @@ v1.0.0-submission
 
 This deposit contains public code, aggregate non-identifying outputs,
 supplementary workbooks, figure-generation materials, and a manuscript
-submission snapshot for: Multidomain burden among older women across seven international ageing cohorts: a harmonized descriptive audit and cautionary profile-stability analysis.
+submission snapshot for: Multidomain burden among midlife and older women across seven international ageing cohorts: a harmonized descriptive audit and cautionary profile-stability analysis.
 
 The deposit excludes source cohort participant-level data, locally cleaned
 participant-level files, and derived participant-level analysis datasets.
@@ -30,8 +30,8 @@ registration/application and data-use conditions.
 
 ## Keywords
 
-ageing; older women; longitudinal cohorts; harmonization; multidomain burden;
-Gaussian mixture model; reproducibility; BMC Geriatrics
+ageing; midlife and older women; longitudinal cohorts; harmonization;
+multidomain burden; Gaussian mixture model; reproducibility; BMC Women's Health
 
 ## Access Right
 
