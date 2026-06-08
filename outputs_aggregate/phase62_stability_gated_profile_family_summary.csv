@@ -1,8 +1,8 @@
 ﻿cohort,phase62_decision,best_available_method,best_p10_ari,best_median_ari,best_ari_vs_selected_full_gmm,endotype_claim_allowed,recommended_claim
-CHARLS,only_severity_strata_pass_stability_gate,severity_quantile_k,0.9130738043212873,0.9538474440801685,0.12270328390917416,no,descriptive sensitivity only; continuous domain scores remain primary for modelling
-ELSA,only_severity_strata_pass_stability_gate,severity_quantile_k,0.8780032193625704,0.9308526031687209,0.1787065812014447,no,descriptive sensitivity only; continuous domain scores remain primary for modelling
-HRS,only_severity_strata_pass_stability_gate,severity_quantile_k,0.8842463836841142,0.949848053609238,0.14876618425340907,no,descriptive sensitivity only; continuous domain scores remain primary for modelling
-KLoSA,only_severity_strata_pass_stability_gate,severity_quantile_k,0.9159653575319248,0.961191333732154,0.2174886300028439,no,descriptive sensitivity only; continuous domain scores remain primary for modelling
-LASI,only_severity_strata_pass_stability_gate,severity_quantile_k,0.9243835986936855,0.9686017815796684,0.09023839485725521,no,descriptive sensitivity only; continuous domain scores remain primary for modelling
-MHAS,only_severity_strata_pass_stability_gate,severity_quantile_k,0.9074084904549057,0.9388590871277327,0.1435998426199166,no,descriptive sensitivity only; continuous domain scores remain primary for modelling
-SHARE,model_based_profile_family_supported_as_descriptive_sensitivity,kmeans,0.9124516532807024,0.9494193399220148,0.2155955487886838,no,descriptive sensitivity only; continuous domain scores remain primary for modelling
+CHARLS,only_severity_strata_pass_stability_gate,severity_quantile_k,1.0,1.0,0.12270328390917416,no,descriptive sensitivity only; continuous domain scores remain primary for modelling
+ELSA,only_severity_strata_pass_stability_gate,severity_quantile_k,1.0,1.0,0.1787065812014447,no,descriptive sensitivity only; continuous domain scores remain primary for modelling
+HRS,only_severity_strata_pass_stability_gate,severity_quantile_k,1.0,1.0,0.14876618425340907,no,descriptive sensitivity only; continuous domain scores remain primary for modelling
+KLoSA,only_severity_strata_pass_stability_gate,severity_quantile_k,1.0,1.0,0.2174886300028439,no,descriptive sensitivity only; continuous domain scores remain primary for modelling
+LASI,model_based_profile_family_supported_as_descriptive_sensitivity,kmeans,0.8198794509020245,0.9590301327303699,0.6175225634989141,no,descriptive sensitivity only; continuous domain scores remain primary for modelling
+MHAS,only_severity_strata_pass_stability_gate,severity_quantile_k,1.0,1.0,0.1435998426199166,no,descriptive sensitivity only; continuous domain scores remain primary for modelling
+SHARE,model_based_profile_family_supported_as_descriptive_sensitivity,kmeans,0.9343079168094143,0.9707022391013964,0.2155955487886838,no,descriptive sensitivity only; continuous domain scores remain primary for modelling
