@@ -47,4 +47,5 @@ agreements.
 ## Related Identifiers
 
 - Manuscript DOI: to be added after publication.
+- Zenodo DOI: 10.5281/zenodo.20587537
 - GitHub repository: https://github.com/Luciky-Leo/older-women-multidomain-burden

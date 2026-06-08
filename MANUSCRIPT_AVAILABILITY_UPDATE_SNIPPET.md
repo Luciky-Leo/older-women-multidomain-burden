@@ -10,5 +10,5 @@ de-identified cohort files for this analysis. Source and derived
 participant-level data cannot be redistributed if doing so would violate source
 cohort data-use agreements. Analysis code, harmonization metadata and aggregate
 non-identifying outputs used to reproduce the manuscript tables and figures are
-archived at Zenodo: DOI: [ADD DOI], with the development version available at
+archived at Zenodo: DOI: 10.5281/zenodo.20587537, with the development version available at
 GitHub: https://github.com/Luciky-Leo/older-women-multidomain-burden.
