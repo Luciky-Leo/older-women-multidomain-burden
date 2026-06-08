@@ -2,6 +2,7 @@ category,source_path,bytes,reason
 output,/mnt/e/Reserch/Older women/outputs/bmc_womens_health_box1_actual_preview.png,208686,not selected for aggregate public package
 output,/mnt/e/Reserch/Older women/outputs/bmc_womens_health_box1_preview.png,207389,not selected for aggregate public package
 output,/mnt/e/Reserch/Older women/outputs/bmc_womens_health_table5_page15_preview.png,173271,not selected for aggregate public package
+output,/mnt/e/Reserch/Older women/outputs/claude_strict_review_handoff_bmc_womens_health_20260608.md,9000,internal review/workflow file pattern: claude
 output,/mnt/e/Reserch/Older women/outputs/phase13_covariate_participant_screen.csv,14164955,restricted-risk filename pattern: participant
 output,/mnt/e/Reserch/Older women/outputs/phase23_bmc_declarations_completion_template.csv,2496,outdated provenance wording
 output,/mnt/e/Reserch/Older women/outputs/phase31_claude_nature_communications_review_packet.md,13858,internal review/workflow file pattern: claude
@@ -24,6 +25,8 @@ output,/mnt/e/Reserch/Older women/outputs/phase41_table4_pdf_render_page_09.png,
 output,/mnt/e/Reserch/Older women/outputs/phase41_table4_pdf_render_page_13.png,178384,not selected for aggregate public package
 output,/mnt/e/Reserch/Older women/outputs/phase42_persist_full_pool_scored.tsv,11846141,larger than public aggregate limit (11846141 bytes)
 output,/mnt/e/Reserch/Older women/outputs/phase4_best_model_assignments.csv,14394636,restricted-risk filename pattern: assignment
+output,/mnt/e/Reserch/Older women/outputs/phase58_figure2_preview.png,110832,not selected for aggregate public package
+output,/mnt/e/Reserch/Older women/outputs/phase58_table1_preview.png,212303,not selected for aggregate public package
 output,/mnt/e/Reserch/Older women/outputs/phase5_participant_outcome_screen.csv,26965235,restricted-risk filename pattern: participant
 output,/mnt/e/Reserch/Older women/outputs/phase6_mortality_participant_screen.csv,18601389,restricted-risk filename pattern: participant
 output,/mnt/e/Reserch/Older women/outputs/phase7_aic_delta_vs_four_domain_scores.csv,1173,restricted-risk filename pattern: domain_scores
