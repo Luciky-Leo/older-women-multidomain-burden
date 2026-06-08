@@ -1,0 +1,5 @@
+﻿cohort,lfo_profile_class,n,events,event_pct_unweighted,event_pct_weighted_norm,event_pct_weighted_trim99,weight_variable,design_note
+HRS,1,3614,1059,29.3027116768124,27.591483098476733,27.613821592207678,wtresp,weight-only descriptive class risk; no PSU/strata
+HRS,2,3280,1334,40.67073170731707,39.710541450990064,39.73935644018224,wtresp,weight-only descriptive class risk; no PSU/strata
+HRS,3,1541,751,48.73458792991564,47.52941730459476,47.523572580211884,wtresp,weight-only descriptive class risk; no PSU/strata
+HRS,4,646,334,51.702786377708975,51.349270271772895,51.41511785122839,wtresp,weight-only descriptive class risk; no PSU/strata

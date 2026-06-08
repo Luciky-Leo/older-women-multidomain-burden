@@ -1,0 +1,8 @@
+﻿cohort,weight_cleaned_variable_count,weight_cleaned_variables,weight_metadata_nonempty_mentions,weight_metadata_evidence,psu_cleaned_variable_count,psu_cleaned_variables,psu_metadata_nonempty_mentions,psu_metadata_evidence,strata_cleaned_variable_count,strata_cleaned_variables,strata_metadata_nonempty_mentions,strata_metadata_evidence,full_cleaned_triplet_available,full_metadata_triplet_available,phase61_analysis_decision
+CHARLS,0,,188,1,0,,32,1,0,,0,0,0,0,not_modelable_from_current_cleaned_files
+ELSA,0,,178,1,0,,0,0,0,,13,1,0,0,not_modelable_from_current_cleaned_files
+HRS,1,wtresp,722,1,0,,3,1,0,,32,1,0,1,weight_only_sensitivity_modelable_no_psu_or_strata
+KLoSA,0,,40,1,0,,1,1,0,,4,1,0,1,metadata_mentions_only_no_cleaned_design_variables
+LASI,0,,99,1,0,,7,1,0,,19,1,0,1,metadata_mentions_only_no_cleaned_design_variables
+MHAS,0,,95,1,0,,0,0,0,,0,0,0,0,not_modelable_from_current_cleaned_files
+SHARE,0,,217,1,0,,59,1,0,,36,1,0,1,metadata_mentions_only_no_cleaned_design_variables

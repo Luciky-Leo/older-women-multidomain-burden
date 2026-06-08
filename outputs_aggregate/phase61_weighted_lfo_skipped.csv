@@ -1,0 +1,7 @@
+﻿cohort,reason,phase61_analysis_decision
+CHARLS,no cleaned weight variable available for model frame,not_modelable_from_current_cleaned_files
+ELSA,no cleaned weight variable available for model frame,not_modelable_from_current_cleaned_files
+KLoSA,no cleaned weight variable available for model frame,metadata_mentions_only_no_cleaned_design_variables
+LASI,no cleaned weight variable available for model frame,metadata_mentions_only_no_cleaned_design_variables
+MHAS,no cleaned weight variable available for model frame,not_modelable_from_current_cleaned_files
+SHARE,no cleaned weight variable available for model frame,metadata_mentions_only_no_cleaned_design_variables
