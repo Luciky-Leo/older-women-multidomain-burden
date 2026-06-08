@@ -1,0 +1,312 @@
+\documentclass[pdflatex,sn-vancouver-num]{sn-jnl}
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{url}
+\usepackage{array}
+\usepackage{placeins}
+\usepackage{lineno}
+\usepackage{setspace}
+
+\raggedbottom
+
+\begin{document}
+
+\title[Multidomain burden among older women]{Multidomain burden among older women across seven international ageing cohorts: a harmonized descriptive audit and cautionary profile-stability analysis}
+
+\author[1]{\fnm{Feifan} \sur{Lu}}\email{luff94@163.com}
+\equalcont{Feifan Lu, Jun Chen and Jizi Shen contributed equally to this work.}
+\author[2]{\fnm{Jun} \sur{Chen}}\email{chenjunsmmu@163.com}
+\equalcont{Feifan Lu, Jun Chen and Jizi Shen contributed equally to this work.}
+\author[1]{\fnm{Jizi} \sur{Shen}}\email{664331614@qq.com}
+\equalcont{Feifan Lu, Jun Chen and Jizi Shen contributed equally to this work.}
+\author*[1]{\fnm{Rui} \sur{Guan}}\email{cngreen785@163.com}
+\author*[1]{\fnm{Li} \sur{Li}}\email{13764260296@163.com}
+
+\affil*[1]{\orgdiv{Department of Obstetrics and Gynecology}, \orgname{Changhai Hospital, Naval Medical University}, \orgaddress{\city{Shanghai}, \postcode{200433}, \state{Shanghai}, \country{China}}}
+\affil[2]{\orgdiv{Department of General Surgery}, \orgname{The 989 Hospital of the PLA Joint Service Support Force}, \orgaddress{\street{No.2 Huaxia West Road}, \city{Luoyang}, \postcode{471031}, \country{China}}}
+
+\abstract{\textbf{Background:} Multidomain ageing indicators are often summarized as categorical profiles, but such profiles can be overinterpreted when harmonized measures, complete-case selection, endpoint coupling and model stability are not explicit. \textbf{Methods:} We analysed approved, downloaded, de-identified cohort datasets for women aged 50 years or older in CHARLS, ELSA, HRS, KLoSA, LASI, MHAS and SHARE. The authors cleaned the local cohort files, used harmonized ageing-study variables where available \cite{lee2021gateway} and locally assembled domain inputs when required. Four within-cohort burden domains were oriented so that higher scores indicated worse burden. We treated Gaussian mixture models as descriptive partitions and audited measurement comparability, denominator attrition, LFO functional-change associations, algorithm concordance, formal secondary mortality models, all-sex interaction screens and prediction guardrails. \textbf{Results:} The source screen included 79,938 women, of whom 76,293 had complete four-domain descriptive assignments. Strict-core construction comprised CHARLS, ELSA, HRS and MHAS (29,058 women); SHARE, KLoSA and LASI remained sensitivity or descriptive tiers. All selected full-covariance four-domain Gaussian mixture solutions triggered near-singular covariance diagnostics, and cross-method agreement was limited in several cohorts. In strict-core LFO analyses, functional-change risk gradients were observed within cohort, but continuous three-domain scores matched or exceeded categorical LFO profiles for discrimination, model fit and decision-curve net benefit in 15 of 20 strict-core threshold comparisons. Secondary mortality Cox models showed high-burden class gradients, but proportional-hazards/time-drift flags in several cohorts and incomplete hard-endpoint harmonization kept mortality secondary. \textbf{Conclusions:} The defensible contribution is a harmonized descriptive audit and cautionary profile-stability analysis of multidomain burden patterns among older women using applied-for, downloaded cohort data cleaned by the authors. The current evidence does not support stable latent endotypes, transportable categorical risk tools, population prevalence claims or prediction superiority over continuous domain scores.}
+
+\keywords{aging, women, multimorbidity, functional change, frailty, intrinsic capacity, harmonization}
+
+\maketitle
+\linenumbers
+\doublespacing
+
+\section{Background}\label{sec:background}
+
+Functional ability, intrinsic capacity and multimorbidity are central to geriatric assessment and health-system planning for ageing populations \cite{who2015worldreport,who2017icope,cesari2018evidence,barnett2012multimorbidity}. Frailty phenotypes and deficit-accumulation indices summarize vulnerability \cite{fried2001frailty,rockwood2007frailty,clegg2013frailty}, but they can compress clinically different domain patterns into a single severity continuum.
+
+This study is intentionally scoped to older women. Women have longer survival, higher late-life disability burden and different patterns of affective symptoms, multimorbidity and care needs \cite{crimmins2011gender}. Exploratory all-sex LFO severity-by-sex interaction screens were fitted on a separately standardized all-sex scale; only one of six modelled cohorts had a nominal interaction signal, so these analyses do not support a consistent women-specific mechanism. The women-only design is therefore framed as a focused descriptive comparison in an older-women population, not as evidence that the observed patterns are unique to women.
+
+Recent multidomain trajectory work suggests that functional, cognitive, mood and chronic-disease indicators can evolve jointly \cite{quinones2022multidimensional}. The unresolved clinical and epidemiologic problem is whether categorical burden profiles remain interpretable after harmonization risk, complete-case selection, endpoint coupling and model instability are made explicit. We therefore focus on conservative description and claim calibration: whether multidomain burden can be summarized without overstating transportable latent subtypes or prediction performance.
+
+\section{Methods}\label{sec:methods}
+
+\subsection{Cohorts and analytic population}
+
+After registration or data-use application as required by each study, we downloaded de-identified cohort datasets from CHARLS, ELSA, HRS, KLoSA, LASI, MHAS and SHARE official data access systems \cite{zhao2014charls,steptoe2013elsa,sonnega2014hrs,keis2026klosa,perianayagam2022lasi,wong2017mhas,borschsupan2013share}. The authors cleaned the local cohort files, retained project-specific derived outputs and assembled the present analysis dataset. Variables included harmonized ageing-study products where available \cite{lee2021gateway} and locally assembled domain inputs when no directly comparable cleaned variable was available. The analytic population was women aged 50 years or older at the cohort-specific selected baseline or analysis wave. Sex coding was confirmed from local Working Data Stata value labels and do-files as \texttt{ragender=0} for women and \texttt{ragender=1} for men. Source-screen, complete-domain, descriptive-profile and functional-association denominators were separated in line with observational-study reporting principles \cite{vonelm2007strobe}. Detailed cohort construction, harmonization and baseline covariate metadata are provided in Additional file 1.
+
+\subsection{Domain construction and harmonization review}
+
+Four domains were constructed: functional limitation, cognitive burden, affective symptoms and cardiometabolic/chronic disease burden. Functional items were anchored to activities of daily living and instrumental activities of daily living constructs where available \cite{katz1963adl,lawton1969iadl}. Affective symptoms used CES-D-family information where available \cite{radloff1977cesd}; SHARE used EURO-D information \cite{prince1999eurod}. Scores were standardized within cohort and oriented so that higher values indicated worse burden. Retrospective harmonization review treated similar orientation as insufficient evidence for item identity or transportable measurement equivalence \cite{doiron2013bioshare,fortier2017maelstrom}.
+
+\subsection{Evidence tiers and descriptive profiles}
+
+The strict-core descriptive construction tier comprised CHARLS, ELSA, HRS and MHAS. SHARE was retained as construction-descriptive but validation-downgraded sensitivity evidence, KLoSA as functional-bridge sensitivity and LASI as baseline-only descriptive evidence. Cohort-specific Gaussian mixture models with two to five classes were fit to the four domain scores as descriptive clustering tools \cite{mclachlan2000finite}. Models used full covariance matrices, \texttt{reg\_covar=1e-6}, \texttt{max\_iter=500}, \texttt{n\_init=5} and random state 20260601. The selected model used the lowest BIC among converged models with minimum class size at least 5\%, with class enumeration interpreted cautiously \cite{nylund2007classes,hennig2015trueclusters}. The final stability guardrail used 200 nonparametric bootstrap refits per selected solution, covariance diagnostics and cross-algorithm agreement; these were treated as main guardrails rather than supplemental technicalities. Detailed profile dictionaries and stability outputs are provided in Additional file 2.
+
+\subsection{Functional-change association and unresolved endpoint guardrails}
+
+The functional-change endpoint was deterioration of at least 0.5 SD from baseline. Because functional change is a within-domain endpoint and the original four-domain descriptive profiles include baseline function, this analysis cannot be interpreted as independent hard-outcome validation. We therefore rebuilt exploratory LFO profiles after omitting the baseline functional domain and compared categorical LFO profiles with continuous cognitive, affective and cardiometabolic/chronic scores. Models adjusted for age, education, marital status, smoking and drinking. LFO model outputs are provided in Additional file 3. We additionally fitted formal secondary all-cause mortality Cox models, post-baseline hospitalization candidate models where cleaned binary headers existed, and calibration/decision-curve guardrails; these secondary endpoint and prediction guardrail outputs are provided in Additional file 4. Exploratory all-sex LFO severity-by-sex interaction models and survey-design audits are provided in Additional file 5. These analyses were treated as secondary or sensitivity evidence rather than harmonized primary validation.
+
+\section{Results}\label{sec:results}
+
+\subsection{Denominator lock, baseline profile and complete-case selection}
+
+The source screen included 79,938 women aged 50 years or older, and 76,293 had complete four-domain descriptive assignments. The strict-core construction set comprised 29,058 women from CHARLS, ELSA, HRS and MHAS. The sensitivity/descriptive construction set comprised 47,235 women from SHARE, KLoSA and LASI. These counts and percentages are analytic-sample summaries rather than survey-weighted population estimates. Complete-case selection was not neutral: excluded participants were older than included complete-domain participants in every cohort, including HRS (+10.4 years) and ELSA (+6.6 years). Table~\ref{tab:baseline-clinical} and Figure~\ref{fig:cohort-flow} separate source, complete-domain, endpoint-availability and LFO model denominators. Each downstream analysis used its own endpoint- and covariate-complete denominator, so LFO, mortality and descriptive-construction denominators should not be interchanged.
+
+\begin{table}[!htbp]
+\singlespacing
+\caption{Baseline clinical profile and analytic denominators}\label{tab:baseline-clinical}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.10\textwidth}>{\raggedright\arraybackslash}p{0.12\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}p{0.22\textwidth}>{\raggedright\arraybackslash}p{0.11\textwidth}@{}}
+\toprule
+Cohort & Tier/wave & Source/ complete N & LFO N/events/ follow-up & Baseline clinical profile & Excluded age delta\\
+\midrule
+CHARLS & Strict-core; w1 & 6,878 / 6,019 (87.5\%) & 5,691; 1,766 (31.0\%); 9.0 y & Age 61.9; BMI 23.9; chronic 0.7; 2+ chronic 17.6\%; smoke/drink 6.5/15.0\% & +4.2 y\\
+ELSA & Strict-core; w1 & 6,292 / 6,104 (97.0\%) & 5,153; 1,316 (25.5\%); 12.0 y & Age 65.1; BMI unavailable; chronic 0.7; 2+ chronic 14.9\%; smoke/drink 18.2/85.2\% & +6.6 y\\
+HRS & Strict-core; w5 & 11,005 / 10,202 (92.7\%) & 9,431; 3,546 (37.6\%); 15.0 y & Age 67.2; BMI 27.0; chronic 1.0; 2+ chronic 25.2\%; smoke/drink 14.4/39.8\% & +10.4 y\\
+KLoSA & Bridge sensitivity; w3 & 4,344 / 4,081 (93.9\%) & 3,834; 1,144 (29.8\%); 10.0 y & Age 66.0; BMI 23.4; chronic 0.7; 2+ chronic 17.4\%; smoke/drink 3.0/17.7\% & +4.0 y\\
+LASI & Baseline-only; no wave field & 28,165 / 27,433 (97.4\%) & Unavailable in current cleaned pass & Age 62.6; BMI 23.1; chronic 0.6; 2+ chronic 13.5\%; smoke/drink 3.7/2.6\% & +6.5 y\\
+MHAS & Strict-core; w1 & 7,440 / 6,733 (90.5\%) & 5,443; 1,437 (26.4\%); 16.0 y & Age 62.4; BMI 27.7; chronic 0.7; 2+ chronic 13.0\%; smoke/drink 9.5/17.6\% & +4.5 y\\
+SHARE & Validation down; w1 & 15,814 / 15,721 (99.4\%) & 12,205; 1,525 (12.5\%); 11.0 y & Age 64.8; BMI 26.2; chronic 0.8; 2+ chronic 22.1\%; smoke/drink 15.1/59.0\% & +3.3 y\\
+\botrule
+\end{tabular}
+\footnotetext{Source denominators are women aged 50 years or older in the selected baseline screen. Complete-domain denominators are four-domain descriptive assignments. Endpoint availability is counted before the covariate-complete LFO modelling restrictions used in the LFO association analysis and Figure~\ref{fig:cohort-flow}. Education, marital status, smoking, drinking and rural/region field availability is reported in Additional file 1.}
+\end{table}
+
+\FloatBarrier
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth,height=0.72\textheight,keepaspectratio]{figure1_cohort_flow_main.pdf}
+\caption{Analytic denominator flow and evidence-tier membership. Panel A shows alluvial-style per-cohort attrition from women aged 50 years or older source screening to complete four-domain construction and covariate-complete LFO model denominators. These model-complete LFO denominators are intentionally smaller than the endpoint-available denominators in Table~\ref{tab:baseline-clinical}. Panel B summarizes analytic-tier membership for construction, strict-core LFO association, sensitivity and baseline-only descriptive roles. LASI remains baseline-only in the current cleaned-data pass.}
+\label{fig:cohort-flow}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Profile-stability guardrails}
+
+All selected full-covariance four-domain Gaussian mixture solutions triggered near-singular covariance diagnostics, with minimum covariance eigenvalues pinned at the regularization floor in at least one component per cohort. In the 200-refit bootstrap guardrail, all refits converged, but lower-tail agreement remained weak in several cohorts: p10 ARI was 0.35 in ELSA, 0.28 in HRS, 0.23 in KLoSA and 0.37 in SHARE. Even cohorts with moderate-to-high median ARI were downgraded by near-singular covariance and weak lower-tail bootstrap agreement. The profile labels are therefore descriptive partitions for summarizing observed burden combinations, not stable latent disease entities or transportable risk tools (Table~\ref{tab:stability}; Figure~\ref{fig:stability}). The strict-core profile-pattern heatmap is retained as a supplementary descriptive display rather than as primary validation evidence.
+
+\begin{table}[!htbp]
+\singlespacing
+\caption{Model-stability guardrails for selected four-domain profile solutions}\label{tab:stability}
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.10\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}>{\centering\arraybackslash}p{0.04\textwidth}>{\centering\arraybackslash}p{0.14\textwidth}>{\centering\arraybackslash}p{0.14\textwidth}>{\centering\arraybackslash}p{0.12\textwidth}>{\raggedright\arraybackslash}p{0.17\textwidth}@{}}
+\toprule
+Cohort & Evidence tier & k & Bootstrap ARI & Cross-method ARI & Max condition & Claim status\\
+\midrule
+CHARLS & Strict-core & 3 & 1.00 (1.00; 0.43) & 0.26 (0.12-1.00) & 1.20e+06 & Descriptive only\\
+ELSA & Strict-core & 5 & 0.84 (0.35; 0.23) & 0.25 (0.22-1.00) & 1.35e+06 & Descriptive only\\
+HRS & Strict-core & 5 & 0.76 (0.28; 0.27) & 0.20 (0.17-0.92) & 1.52e+06 & Descriptive only\\
+KLoSA & Bridge sensitivity & 3 & 0.98 (0.23; 0.21) & 0.62 (0.22-0.93) & 1.36e+06 & Bridge sensitivity\\
+LASI & Baseline-only & 3 & 0.99 (0.97; 0.16) & 0.22 (0.09-0.96) & 1.19e+06 & No follow-up validation\\
+MHAS & Strict-core & 5 & 0.98 (0.84; 0.33) & 0.17 (0.15-0.95) & 2.53e+06 & Descriptive only\\
+SHARE & Validation-downgraded & 4 & 0.37 (0.37; 0.36) & 0.22 (0.19-0.99) & 9.28e+05 & Downgraded\\
+\botrule
+\end{tabular}
+\footnotetext{ARI = adjusted Rand index. Bootstrap ARI is median (p10; minimum) across 200 nonparametric refits. Cross-method ARI is median (range) against diagonal/tied GMM, k-means, sampled hierarchical clustering and continuous-severity tertiles. All selected full-covariance solutions triggered near-singular covariance diagnostics; therefore these profiles are descriptive partitions and not stable latent subtypes.}
+\end{table}
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth,height=0.76\textheight,keepaspectratio]{figure2_profile_stability_guardrails_main.pdf}
+\caption{Model-stability guardrails for selected descriptive profile partitions. Panel A summarizes 200-refit bootstrap ARI distributions, with higher values indicating greater refit stability. Panel B shows cross-method ARI against the selected full-covariance GMM across alternative clustering and continuous-severity comparators. Panel C ranks cohorts by log10 covariance condition number with the near-singular threshold shown as a reference line. Panel D maps bootstrap p10 ARI against log10 covariance condition to separate reproducible, fragile and near-singular descriptive solutions; it is a visualization of numerical guardrails, not a separate statistical model.}
+\label{fig:stability}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Exploratory LFO functional-change associations}
+
+Strict-core LFO functional-change analyses included 25,113 women and 7,925 functional deterioration events. Highest crude-risk LFO classes showed within-cohort functional-change gradients, although the ELSA highest-class contrast was not statistically conclusive. Continuous three-domain scores matched or outperformed categorical LFO profiles for discrimination and model fit in every strict-core cohort (Table~\ref{tab:lfo-functional}; Figure~\ref{fig:lfo-functional}). Random-effects heterogeneity for the strict-core adjusted LFO risk ratios was considerable (pooled RR 1.40, 95\% CI 1.19 to 1.64; I\textsuperscript{2} 80.2\%; Q p=0.002; Additional file 3). With heterogeneity near 80\%, the pooled estimate is a descriptive cross-cohort summary across non-identical instruments rather than a transportable effect estimate. These results describe within-cohort association with a functional change-score endpoint; they do not validate the four-domain descriptive profile patterns and do not demonstrate prediction superiority. SHARE and KLoSA are provided only as sensitivity rows because SHARE remained validation-downgraded and KLoSA used a functional bridge.
+
+\begin{table}[!htbp]
+\singlespacing
+\caption{Exploratory leave-functional-domain-out functional-change associations in strict-core cohorts}\label{tab:lfo-functional}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.11\textwidth}>{\raggedright\arraybackslash}p{0.14\textwidth}>{\raggedright\arraybackslash}p{0.20\textwidth}>{\raggedright\arraybackslash}p{0.16\textwidth}>{\centering\arraybackslash}p{0.09\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}@{}}
+\toprule
+Cohort & LFO N/events & Risk contrast & Adjusted RR & Delta AUC & Reading\\
+\midrule
+CHARLS & 5,687/1,765 (31.0\%) & C1 21.5\% to C3 39.8\%; RD 18.3 pp & 1.63 (1.35 to 1.96) & -0.015 & Continuous favoured\\
+ELSA & 4,562/1,180 (25.9\%) & C1 21.1\% to C5 42.2\%; RD 21.1 pp & 1.15 (0.96 to 1.37) & -0.007 & Continuous favoured\\
+HRS & 9,430/3,546 (37.6\%) & C1 28.4\% to C4 51.8\%; RD 23.4 pp & 1.28 (1.16 to 1.41) & -0.008 & Continuous favoured\\
+MHAS & 5,434/1,434 (26.4\%) & C1 20.6\% to C3 36.6\%; RD 16.0 pp & 1.61 (1.42 to 1.82) & -0.002 & Continuous favoured\\
+\botrule
+\end{tabular}
+\footnotetext{LFO = leave-functional-domain-out; RD = absolute risk difference between class 1 and the highest crude-risk LFO class. LFO classes were rebuilt without the baseline functional domain and are not the same objects as the four-domain descriptive profile patterns. Adjusted risk ratios use modified Poisson models with robust standard errors and adjustment for age, education, marital status, smoking and drinking. Delta AUC is profile AUC minus continuous-score AUC; negative values favour continuous three-domain scores. Full profile and continuous AUC values, SHARE/KLoSA sensitivity rows and class-level risks are provided in Additional file 3.}
+\end{table}
+
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth,height=0.72\textheight,keepaspectratio]{figure3_lfo_functional_change_main.pdf}
+\caption{Exploratory strict-core LFO functional-change associations. Panel A shows adjusted risk ratios comparing the highest crude-risk LFO class with the reference class, with point size scaled by model denominator and the adjacent table reporting N/events, reference-class risk, highest-class risk, adjusted RR and delta AUC. Panel B places cohorts in risk-difference versus delta-AUC space; horizontal intervals show uncertainty in crude risk difference and vertical intervals show 95\% bootstrap intervals for delta AUC. Delta AUC is profile AUC minus continuous-score AUC, so negative values favour continuous three-domain scores.}
+\label{fig:lfo-functional}
+\end{figure}
+
+\FloatBarrier
+
+\subsection{Secondary mortality and prediction-guardrail analyses}
+
+Formal secondary all-cause mortality Cox models were fitted in six cohorts; LASI remained unavailable for mortality follow-up in the current cleaned pass. Highest-burden profile classes were associated with higher all-cause mortality in the modelled cohorts, but proportional-hazards or time-drift guardrail flags appeared in ELSA, HRS, KLoSA and SHARE. The ELSA death count was low relative to the nominal follow-up interval and may reflect incomplete mortality ascertainment in the current cleaned pass, so the ELSA hazard ratio should be read with particular caution. Among strict-core cohorts, random-effects heterogeneity for the highest-class mortality HR was considerable (pooled HR 2.37, 95\% CI 1.99 to 2.82; I\textsuperscript{2} 78.7\%; Q p=0.003; Additional file 4). With considerable heterogeneity and PH/time-drift flags in several cohorts, the pooled HR and flagged cohort-specific HRs are descriptive guardrail summaries rather than constant-hazard or transportable effect estimates. Mortality is therefore reported as a secondary non-circular endpoint guardrail rather than as primary validation evidence (Table~\ref{tab:mortality-secondary}). Decision-curve guardrails also supported the main cautionary interpretation: continuous three-domain scores had higher apparent in-sample net benefit than categorical LFO profiles in 15 of 20 strict-core threshold comparisons, without optimism correction. Calibration outputs are likewise reported only as apparent in-sample diagnostics and are not interpreted as validated calibration.
+
+\begin{table}[!htbp]
+\singlespacing
+\caption{Secondary all-cause mortality Cox guardrail models}\label{tab:mortality-secondary}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.11\textwidth}>{\raggedright\arraybackslash}p{0.13\textwidth}>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}p{0.18\textwidth}>{\raggedright\arraybackslash}p{0.13\textwidth}>{\raggedright\arraybackslash}p{0.14\textwidth}@{}}
+\toprule
+Cohort & Tier & N/deaths; time & Highest class HR & PH/time flag & Reading\\
+\midrule
+CHARLS & strict-core & 5,868; 703 deaths (12.0\%); 9.0 y & C3 HR 1.82 (1.54 to 2.16) & No flag & Secondary\\
+ELSA & strict-core & 4,639; 317 deaths (6.8\%); 12.0 y & C5 HR 3.07 (2.15 to 4.39) & Flagged & Time-averaged\\
+HRS & strict-core & 10,043; 5,569 deaths (55.5\%); 15.9 y & C5 HR 2.60 (2.34 to 2.89) & Flagged & Time-averaged\\
+KLoSA & bridge sens. & 3,990; 726 deaths (18.2\%); 10.0 y & C3 HR 1.30 (1.09 to 1.56) & Flagged & Bridge sensitivity\\
+LASI & baseline-only & unavailable & NA & NA & Not modelled\\
+MHAS & strict-core & 6,477; 2,231 deaths (34.4\%); 17.0 y & C3 HR 2.39 (2.10 to 2.72) & No flag & Secondary\\
+SHARE & validation-down & 12,952; 3,198 deaths (24.7\%); 11.0 y & C4 HR 2.70 (2.40 to 3.03) & Flagged & Time-averaged\\
+\botrule
+\end{tabular}
+\footnotetext{These are formal secondary all-cause mortality Cox models using available death timing fields after local data cleaning. They are reported as non-circular endpoint guardrails, not as primary validation, because proportional-hazards or time-drift flags were present in several cohorts, survey-design variables were not applied, and LASI mortality follow-up was unavailable in the current cleaned pass. The ELSA death count appeared low relative to nominal follow-up and may reflect incomplete mortality ascertainment in the current cleaned pass; the ELSA HR should therefore be interpreted with particular caution. HRs in flagged cohorts should be read as conventional time-averaged guardrail summaries rather than constant-hazard effects. Technical flag coding and AIC guardrail details are provided in Additional file 4.}
+\end{table}
+
+\subsection{Harmonization, hard-outcome and survey-design guardrails}
+
+The harmonization matrix remained central to interpretation (Figure~\ref{fig:harmonization-risk}). Functional-domain strictness differed across cohorts: CHARLS used IADL-only information, HRS used ADL-only information, KLoSA used a bridge proxy and SHARE remained validation-downgraded. Cognitive batteries were cohort-specific, SHARE affective symptoms used EURO-D, and cardiometabolic/chronic disease indicators differed in lipid/cholesterol availability. Raw/codebook/dofile auditing identified candidate weight, primary sampling unit and strata triplets in HRS, KLoSA, LASI and SHARE, but no codebook-confirmed harmonized seven-cohort survey-design triplet was available, so no survey-weighted prevalence claim is made. The all-sex interaction review found one nominal LFO severity-by-sex interaction among six modelled cohorts, which supports the focused older-women scope but not a consistent women-specific mechanism. Hospitalization candidate models were feasible only where cleaned binary headers existed and remain header-only sensitivity evidence until codebook mapping is completed; institutionalization and care-dependence endpoints remained unavailable. The full workflow and supplementary profile displays are embedded after the references as Supplementary Figures S1-S5.
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth,height=0.76\textheight,keepaspectratio]{figure4_harmonization_risk_matrix_main.pdf}
+\caption{Cohort-domain harmonization risk matrix. Cells summarize source tier, non-missing percentage and the principal construct used for each burden domain. The matrix is measurement-risk evidence rather than a biological result.}
+\label{fig:harmonization-risk}
+\end{figure}
+
+\FloatBarrier
+
+\section{Discussion}\label{sec:discussion}
+
+This manuscript is deliberately scoped as a harmonized descriptive audit and cautionary profile-stability analysis. The seven-cohort comparison shows that multidomain burden among older women can be summarized and audited, but the selected categorical partitions are not robust enough to be interpreted as stable endotypes or transportable risk tools. The main positive contribution is transparent measurement and denominator mapping across several major ageing cohorts; the main negative finding is that categorical profile solutions are numerically fragile and do not improve on continuous domain scores for the current functional-change endpoint.
+
+The functional-change analysis should be interpreted conservatively. The LFO approach reduces predictor-side endpoint coupling by removing baseline function from the profile-construction step, but the outcome remains a within-domain change score rather than an independent hard clinical endpoint. The observed risk gradients therefore support exploratory within-cohort association, not validation of the four-domain descriptive patterns. This limitation is especially important because the formal secondary mortality analyses show that clinically more independent endpoints are partly feasible, while also demonstrating why mortality must remain secondary in this package because several cohorts triggered proportional-hazards or time-drift guardrails.
+
+The women-only scope is also conservative. The analysis addresses older women as a clinically important population with high late-life disability burden, but it does not establish sex-specific mechanisms. Exploratory all-sex LFO severity-by-sex interaction models were fitted on a separately standardized all-sex scale and showed no consistent cross-cohort interaction signal; only CHARLS had a nominal interaction. These models were not used for women-only profile construction or outcome modelling. A stronger women-health paper would require a prespecified all-sex design, formal sex-interaction estimands and harmonized women-specific exposures.
+
+\section{Strengths and limitations}\label{sec:limitations}
+
+Strengths include the seven-cohort scope, codebook-confirmed sex coding, explicit denominator locking, separation of strict-core primary evidence from sensitivity tiers, baseline clinical characterization, included-versus-excluded missingness auditing, item-level harmonization review, LFO functional-change modelling, formal secondary mortality modelling, all-sex interaction screens and 200-refit algorithm-stability diagnostics. Limitations remain substantial. Domain measures were harmonized by orientation and within-cohort standardization but were not instrument-identical across cohorts; this is particularly important for Table~\ref{tab:lfo-functional} because functional instruments differed by cohort. Complete-case selection likely removed older and higher-burden participants. Survey weights, strata and primary sampling units were screened using cleaned headers, Stata metadata and dofile/codebook text, but no common codebook-confirmed seven-cohort design triplet was available; the analyses are therefore not survey-weighted population estimates. Functional change remained a coupled within-domain endpoint. LASI lacked a follow-up validation denominator, SHARE was validation-downgraded and KLoSA used a functional bridge. Mortality was modelled only as secondary evidence; hospitalization models remain header-only candidate analyses; institutionalization and care-dependence endpoints remain unavailable. The current study therefore cannot claim population prevalence, stable latent endotypes, sex-specific mechanisms, independent hard-outcome validation or superiority over continuous domain scores.
+
+\section{Conclusions}\label{sec:conclusions}
+
+Across seven international ageing cohorts, multidomain burden among older women can be described, tiered and audited. The conclusion is cautionary: categorical profiles are descriptive partitions with important measurement, stability and endpoint-coupling caveats, while continuous domain scores remain the stronger functional-change comparator in the current analyses.
+
+\section*{Abbreviations}
+
+ADL, activities of daily living; AIC, Akaike information criterion; ARI, adjusted Rand index; BIC, Bayesian information criterion; CES-D, Center for Epidemiologic Studies Depression Scale; CHARLS, China Health and Retirement Longitudinal Study; ELSA, English Longitudinal Study of Ageing; GMM, Gaussian mixture model; HRS, Health and Retirement Study; IADL, instrumental activities of daily living; KLoSA, Korean Longitudinal Study of Aging; LASI, Longitudinal Aging Study in India; LFO, leave-functional-domain-out; MHAS, Mexican Health and Aging Study; SHARE, Survey of Health, Ageing and Retirement in Europe.
+
+\section*{Declarations}
+
+\subsection*{Ethics approval and consent to participate}
+This study used approved, downloaded, de-identified cohort datasets from CHARLS, ELSA, HRS, KLoSA, LASI, MHAS and SHARE after registration or data-use application as required by each cohort. Each source cohort obtained ethics approval and participant consent according to its protocol. The authors cleaned and harmonized the analysis files locally. The present analysis did not involve direct participant contact.
+
+\subsection*{Consent for publication}
+Not applicable.
+
+\subsection*{Availability of data and materials}
+The source cohort datasets are available through their respective official data portals or data access systems subject to registration, application approval and data-use conditions. The authors downloaded, cleaned and harmonized the approved de-identified cohort files for this analysis. Derived participant-level data cannot be redistributed if doing so would violate source cohort data-use agreements. Analysis code and aggregate outputs are available from the corresponding author on reasonable request, subject to source cohort data-use conditions.
+
+\subsection*{Competing interests}
+The authors declare that they have no competing interests.
+
+\subsection*{Funding}
+No specific funding was declared for this study.
+
+\subsection*{Authors' contributions}
+FL, JC and JS contributed equally to this work and share first authorship. FL, JC, JS, RG and LL contributed to study conception and design, interpretation of findings, manuscript drafting and critical revision. FL and RG led data harmonization and statistical analysis. RG and LL supervised the work and are co-corresponding authors. All authors read and approved the final manuscript.
+
+\subsection*{Acknowledgements}
+Not applicable.
+
+\subsection*{Use of artificial intelligence tools}
+Large language model tools were used for drafting support, code-execution log summarization and language editing. No artificial intelligence tool was listed as an author. The authors verified all analyses, references, figures and manuscript content and take full responsibility for the final work.
+
+
+
+
+
+
+
+
+
+
+
+
+
+\section*{Additional files}
+
+Additional file 1. File name: \path{additional_file_1_harmonization_and_cohort_construction.xlsx}. File format: XLSX. Title: Cohort construction, harmonization and baseline covariate metadata. Description: Workbook containing item-level harmonization crosswalks, cohort tier lock, harmonization risk matrix and baseline clinical/design/covariate availability tables.\\
+Additional file 2. File name: \path{additional_file_2_profile_stability_and_descriptive_profiles.xlsx}. File format: XLSX. Title: Descriptive profile and model-stability guardrails. Description: Workbook containing GMM stability summaries, 200-refit bootstrap robustness tables, covariance diagnostics, selected class dictionary, descriptive profile summaries, profile-stability guardrail tables, algorithm robustness sensitivity and sensitivity-cohort profile support.\\
+Additional file 3. File name: \path{additional_file_3_lfo_functional_change_associations.xlsx}. File format: XLSX. Title: Leave-functional-domain-out functional-change association outputs. Description: Workbook containing decoupled validation comparisons, functional endpoint leakage audit, strict-core LFO association table, sensitivity rows, class-level risks, AUC bootstrap intervals and cross-cohort heterogeneity summaries for functional-change analyses.\\
+Additional file 4. File name: \path{additional_file_4_secondary_endpoints_and_prediction_guardrails.xlsx}. File format: XLSX. Title: Secondary endpoint and prediction guardrail outputs. Description: Workbook containing formal mortality guardrail models, hospitalization candidate models/status tables, hard-endpoint feasibility matrix, calibration metrics, decision-curve summaries, secondary endpoint prediction guardrails and cross-cohort mortality heterogeneity summaries.\\
+Additional file 5. File name: \path{additional_file_5_survey_design_and_sex_comparator_audits.xlsx}. File format: XLSX. Title: Survey-design and sex-comparator audits. Description: Workbook containing survey-design variable and raw/codebook audits, survey triplet status, baseline male-comparator summaries/contrasts, all-sex LFO sex-interaction terms and a reviewer-risk summary sheet.\\
+
+Supplementary Figures S1-S5 are embedded after the references in this manuscript file and are not separate tabular Additional files.
+
+\bibliography{bmc_geriatrics_refs}
+
+\section*{Supplementary figures}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth,height=0.62\textheight,keepaspectratio]{supplementary_figure_s1_workflow_schematic.pdf}
+{\small\noindent\textbf{Supplementary Figure S1.} Workflow schematic showing the analysis chain from source cohorts through women aged 50 years or older screening, sex-coding confirmation, four-domain harmonization, evidence-tier locking, descriptive GMM audit, leave-functional-domain-out functional-change association and unresolved guardrail audits.\par}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth,height=0.76\textheight,keepaspectratio]{supplementary_figure_s2_cohort_denominator_validation_dashboard.pdf}
+{\small\noindent\textbf{Supplementary Figure S2.} Cohort denominator and validation dashboard showing source women aged 50 years or older, complete-domain analytic proportions, LFO validation availability and evidence-tier labels.\par}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth,height=0.76\textheight,keepaspectratio]{supplementary_figure_s3_strict_core_profile_heatmap.pdf}
+{\small\noindent\textbf{Supplementary Figure S3.} Strict-core descriptive profile heatmap and class-size display for CHARLS, ELSA, HRS and MHAS.\par}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth,height=0.76\textheight,keepaspectratio]{supplementary_figure_s4_full_descriptive_profile_heatmap.pdf}
+{\small\noindent\textbf{Supplementary Figure S4.} Full descriptive profile heatmap and clinical-reading panel across strict-core, sensitivity and baseline-only tiers.\par}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=\textwidth,height=0.76\textheight,keepaspectratio]{supplementary_figure_s5_validation_stability_guardrail_dashboard.pdf}
+{\small\noindent\textbf{Supplementary Figure S5.} Decoupled validation, GMM bootstrap stability and numerical guardrail dashboard retained as supplementary context.\par}
+\end{figure}
+
+\FloatBarrier
+
+\end{document}

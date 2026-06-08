@@ -1,0 +1,15 @@
+﻿analysis_set,analysis_tier,cohort,sex,baseline_age50plus_n,complete_four_domain_n,complete_four_domain_pct,age_mean,age_sd,functional_mean_z,cognitive_mean_z,affective_mean_z,cardiometabolic_chronic_mean_z
+strict_earliest_primary,strict_primary,CHARLS,female,6878,6019,87.51,62.4,8.82,0.013,0.251,0.144,0.071
+strict_earliest_primary,strict_primary,CHARLS,male,6802,5957,87.58,62.39,8.43,-0.141,-0.233,-0.175,-0.067
+strict_earliest_primary,strict_primary,ELSA,female,6292,6104,97.01,65.33,10.54,0.004,-0.071,0.108,-0.033
+strict_earliest_primary,strict_primary,ELSA,male,5230,5054,96.63,64.74,9.91,-0.023,0.062,-0.13,0.023
+strict_earliest_primary,strict_primary,HRS,female,11005,10202,92.7,67.96,10.76,-0.058,-0.052,0.099,-0.072
+strict_earliest_primary,strict_primary,HRS,male,8016,6775,84.52,67.56,9.5,-0.167,0.077,-0.15,0.026
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,female,4344,4081,93.95,66.24,10.64,0.316,0.161,0.071,0.017
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,male,3305,3107,94.01,65.33,9.75,-0.442,-0.22,-0.15,-0.049
+strict_earliest_primary,strict_primary,LASI,female,28165,27433,97.4,62.74,9.47,0.084,0.26,0.059,0.029
+strict_earliest_primary,strict_primary,LASI,male,25001,24208,96.83,63.3,9.42,-0.16,-0.292,-0.067,-0.041
+strict_earliest_primary,strict_primary,MHAS,female,7440,6733,90.5,62.87,9.76,0.058,-0.082,0.188,0.131
+strict_earliest_primary,strict_primary,MHAS,male,6329,5463,86.32,63.24,9.63,-0.061,0.091,-0.22,-0.164
+strict_earliest_primary,strict_primary,SHARE,female,15814,15721,99.41,64.8,10.37,0.059,0.032,0.184,-0.012
+strict_earliest_primary,strict_primary,SHARE,male,13337,13231,99.21,64.33,9.73,-0.076,-0.04,-0.22,0.015

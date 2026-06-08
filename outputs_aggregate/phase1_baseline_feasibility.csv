@@ -1,0 +1,8 @@
+﻿cohort,baseline_wave,age_variable,likely_female_code,baseline_rows,female_age50plus_rows,domains_with_candidates
+CHARLS,1,age,0,17708,6878,functional(7); cognitive(4); affective(3); cardiometabolic_chronic(9); inflammaging(2)
+ELSA,1,agey,0,12099,6292,functional(3); cognitive(1); affective(2); cardiometabolic_chronic(5)
+HRS,5,ragey_b,0,19578,11005,functional(3); cognitive(6); affective(3); cardiometabolic_chronic(6)
+KLoSA,3,agey,0,7920,4344,functional(3); cognitive(2); affective(2); cardiometabolic_chronic(6)
+LASI,all_rows_no_wave,r1agey,0,73408,28165,functional(2); cognitive(1); affective(2); cardiometabolic_chronic(3)
+MHAS,1,agey,0,15186,7440,functional(3); cardiometabolic_chronic(6)
+SHARE,1,agey,0,30416,15814,functional(2); cardiometabolic_chronic(7)

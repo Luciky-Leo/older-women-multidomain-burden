@@ -1,0 +1,8 @@
+cohort	role	bootstrap_p10_ari	bootstrap_median_ari	algorithm_ari_median	log10_condition	complete_four_domain_n	decision_region
+CHARLS	Strict-core	1	1	0.25955220815314	6.07900893648035	6019	reproducible but near-singular
+ELSA	Strict-core	0.3454	0.8406	0.250919231689441	6.13183619499853	6104	fragile and near-singular
+HRS	Strict-core	0.2823	0.7609	0.199892756891593	6.18144589116024	10202	fragile and near-singular
+KLoSA	Functional bridge sensitivity	0.2286	0.9759	0.618123115629034	6.13501381317388	4081	fragile and near-singular
+LASI	Baseline-only descriptive	0.9724	0.993	0.222943806843049	6.07704490076263	27433	reproducible but near-singular
+MHAS	Strict-core	0.8352	0.9782	0.168273367051547	6.40369217715159	6733	reproducible but near-singular
+SHARE	Validation-downgraded sensitivity	0.3654	0.3672	0.223416988771426	5.96735138596502	15721	fragile

@@ -1,0 +1,29 @@
+﻿cohort,endpoint,status,n,events,event_pct,evidence_level,manuscript_use,variables_used
+CHARLS,all_cause_mortality,formal secondary Cox model,5868.0,703.0,11.98,formal secondary Cox guardrail,secondary non-circular guardrail,
+CHARLS,hospitalization,candidate modelable,5709.0,2464.0,43.15992292870906,header-only candidate model,sensitivity feasibility only until codebook mapping,hospital+hospital_time
+CHARLS,institutionalization,unavailable_current_cleaned_pass,,,,not modelled,endpoint availability matrix only; no inferential claim,
+CHARLS,care_dependence,unavailable_current_cleaned_pass,,,,not modelled,endpoint availability matrix only; no inferential claim,
+ELSA,all_cause_mortality,formal secondary Cox model,4639.0,317.0,6.83,formal secondary Cox guardrail,secondary non-circular guardrail,
+ELSA,hospitalization,not modelable in current cleaned pass,,,,not modelled,unavailable,
+ELSA,institutionalization,unavailable_current_cleaned_pass,,,,not modelled,endpoint availability matrix only; no inferential claim,
+ELSA,care_dependence,unavailable_current_cleaned_pass,,,,not modelled,endpoint availability matrix only; no inferential claim,
+HRS,all_cause_mortality,formal secondary Cox model,10043.0,5569.0,55.45,formal secondary Cox guardrail,secondary non-circular guardrail,
+HRS,hospitalization,candidate modelable,9473.0,7278.0,76.82888208592843,header-only candidate model,sensitivity feasibility only until codebook mapping,hosp
+HRS,institutionalization,unavailable_current_cleaned_pass,,,,not modelled,endpoint availability matrix only; no inferential claim,
+HRS,care_dependence,unavailable_current_cleaned_pass,,,,not modelled,endpoint availability matrix only; no inferential claim,
+KLoSA,all_cause_mortality,formal secondary Cox model,3990.0,726.0,18.2,formal secondary Cox guardrail,secondary non-circular guardrail,
+KLoSA,hospitalization,not modelable in current cleaned pass,,,,not modelled,unavailable,
+KLoSA,institutionalization,unavailable_current_cleaned_pass,,,,not modelled,endpoint availability matrix only; no inferential claim,
+KLoSA,care_dependence,unavailable_current_cleaned_pass,,,,not modelled,endpoint availability matrix only; no inferential claim,
+LASI,all_cause_mortality,unavailable,,,,unavailable,outside validation denominator,
+LASI,hospitalization,not modelable in current cleaned pass,,,,not modelled,unavailable,
+LASI,institutionalization,unavailable_current_cleaned_pass,,,,not modelled,endpoint availability matrix only; no inferential claim,
+LASI,care_dependence,unavailable_current_cleaned_pass,,,,not modelled,endpoint availability matrix only; no inferential claim,
+MHAS,all_cause_mortality,formal secondary Cox model,6477.0,2231.0,34.44,formal secondary Cox guardrail,secondary non-circular guardrail,
+MHAS,hospitalization,candidate modelable,6283.0,2148.0,34.18749005252268,header-only candidate model,sensitivity feasibility only until codebook mapping,hosp1y
+MHAS,institutionalization,unavailable_current_cleaned_pass,,,,not modelled,endpoint availability matrix only; no inferential claim,
+MHAS,care_dependence,unavailable_current_cleaned_pass,,,,not modelled,endpoint availability matrix only; no inferential claim,
+SHARE,all_cause_mortality,formal secondary Cox model,12952.0,3198.0,24.69,formal secondary Cox guardrail,secondary non-circular guardrail,
+SHARE,hospitalization,candidate modelable,12174.0,4307.0,35.37867586660095,header-only candidate model,sensitivity feasibility only until codebook mapping,hosp1y
+SHARE,institutionalization,unavailable_current_cleaned_pass,,,,not modelled,endpoint availability matrix only; no inferential claim,
+SHARE,care_dependence,unavailable_current_cleaned_pass,,,,not modelled,endpoint availability matrix only; no inferential claim,

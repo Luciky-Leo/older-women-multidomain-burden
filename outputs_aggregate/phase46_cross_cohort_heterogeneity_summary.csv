@@ -1,0 +1,4 @@
+﻿analysis,cohorts,k,pooled_effect,pooled_ci,q,q_df,q_p,i2_pct,tau2,interpretation
+"LFO functional deterioration adjusted RR, strict-core cohorts","CHARLS,ELSA,HRS,MHAS",4,1.3988800173131162,1.19 to 1.64,15.186553350946443,3,0.001663970644456311,80.24568227778269,0.020303899856655924,Modified-Poisson adjusted RR for the highest crude-risk LFO class versus reference class.
+"All-cause mortality highest-class HR, strict-core cohorts","CHARLS,ELSA,HRS,MHAS",4,2.368195274906255,1.99 to 2.82,14.110150791101832,3,0.0027589888372402446,78.73871056082643,0.0231021273811249,Secondary Cox HR for the highest mortality-HR profile class; PH guardrails still apply.
+"All-cause mortality highest-class HR, all modelled cohorts","CHARLS,ELSA,HRS,KLoSA,MHAS,SHARE",6,2.2077114207122857,1.78 to 2.73,60.98889926856584,5,7.591124938574214e-12,91.80178678421068,0.06279525726275544,Includes bridge and validation-downgraded cohorts; descriptive heterogeneity guardrail only.

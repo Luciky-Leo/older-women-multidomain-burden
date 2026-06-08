@@ -1,0 +1,29 @@
+﻿cohort,domain,baseline_women50_rows,readiness,primary_variables,supporting_variables,note
+CHARLS,functional,6878,ready_primary,iadl(99.13%),frailtya(64.5%); frailtyb(99.33%); gripsum(78.66%); gripcomp(81.11%); fall_down(93.75%),At least one primary harmonization variable has >=50% nonmissing.
+CHARLS,cognitive,6878,ready_primary,total_cognition(86.38%); memory_z(78.85%); orient_z(85.02%); tcog_z_z(90.99%); ser7(75.82%); imrc(80.07%); dlrc(79.34%); orient(85.02%),,At least one primary harmonization variable has >=50% nonmissing.
+CHARLS,affective,6878,ready_primary,cesd10(92.82%),psyche(98.75%); satlifez(81.27%),At least one primary harmonization variable has >=50% nonmissing.
+CHARLS,cardiometabolic_chronic,6878,ready_primary,hibpe(98.75%); diabe(98.23%); hearte(98.68%); stroke(99.04%); dyslipe(97.27%); cancre(98.84%),bmi(79.47%); systo(79.95%); diasto(79.95%),At least one primary harmonization variable has >=50% nonmissing.
+ELSA,functional,6292,ready_primary,adltot6(98.51%),walkcomp(61.62%); fall(60.14%),At least one primary harmonization variable has >=50% nonmissing.
+ELSA,cognitive,6292,ready_primary,imrc(96.98%); dlrc(96.87%); orient(97.5%),demene(99.9%),At least one primary harmonization variable has >=50% nonmissing.
+ELSA,affective,6292,ready_primary,cesd(97.09%),psyche(99.9%),At least one primary harmonization variable has >=50% nonmissing.
+ELSA,cardiometabolic_chronic,6292,ready_primary,hibpe(99.92%); diabe(99.92%); hearte(99.92%); stroke(99.92%); cancre(99.9%),,At least one primary harmonization variable has >=50% nonmissing.
+HRS,functional,11005,ready_primary,adl6a(99.85%),frailty(100.0%); fall(56.08%),At least one primary harmonization variable has >=50% nonmissing.
+HRS,cognitive,11005,ready_primary,cogtot(51.0%); cog27(92.81%); memory_z(92.81%); orient_z(51.0%); tcog_z_z(92.81%); ser7(92.81%); imrc(92.81%); dlrc(92.81%); orient(51.0%),dementia(92.81%),At least one primary harmonization variable has >=50% nonmissing.
+HRS,affective,11005,ready_primary,cesd(92.78%); depressive(92.78%),psyche(100.0%),At least one primary harmonization variable has >=50% nonmissing.
+HRS,cardiometabolic_chronic,11005,ready_primary,hibpe(100.0%); diabe(100.0%); hearte(100.0%); stroke(100.0%); cancre(100.0%),bmi(97.78%),At least one primary harmonization variable has >=50% nonmissing.
+KLoSA,functional,4344,limited_performance_ready,,gripsum(85.47%); gripcomp(96.11%); fall(100.0%),"Functional domain can be approximated with performance/frailty variables, but construct differs from ADL/IADL."
+KLoSA,cognitive,4344,ready_primary,cog_total(94.73%); ser7(94.73%),dementia(94.73%),At least one primary harmonization variable has >=50% nonmissing.
+KLoSA,affective,4344,ready_primary,cesd10a(99.1%),psyche(99.98%),At least one primary harmonization variable has >=50% nonmissing.
+KLoSA,cardiometabolic_chronic,4344,ready_primary,hibpe(100.0%); diabe(100.0%); hearte(100.0%); stroke(100.0%); cancre(100.0%),bmi(96.94%),At least one primary harmonization variable has >=50% nonmissing.
+LASI,functional,28165,ready_primary,r1adltot6(99.69%); r1iadltot_l(99.69%),,At least one primary harmonization variable has >=50% nonmissing.
+LASI,cognitive,28165,ready_primary,r1cog_total(98.76%),,At least one primary harmonization variable has >=50% nonmissing.
+LASI,affective,28165,ready_primary,r1cesd10(97.43%),r1psyche(99.79%),At least one primary harmonization variable has >=50% nonmissing.
+LASI,cardiometabolic_chronic,28165,ready_primary,r1hibpe(99.81%); r1diabe(99.82%); r1hearte(99.82%); r1stroke(99.82%); r1hchole(99.82%); r1cancre(99.82%),r1mbmi(89.95%); r1systo(90.96%); r1diasto(90.96%),At least one primary harmonization variable has >=50% nonmissing.
+MHAS,functional,7440,ready_primary,adltot6(93.92%); iadlfour(93.76%),fall(99.89%),At least one primary harmonization variable has >=50% nonmissing.
+MHAS,cognitive,7440,ready_primary,imrc8(92.73%); dlrc8(92.73%),,At least one primary harmonization variable has >=50% nonmissing.
+MHAS,affective,7440,ready_primary,cesd_m(93.67%),,At least one primary harmonization variable has >=50% nonmissing.
+MHAS,cardiometabolic_chronic,7440,ready_primary,hibpe(97.54%); diabe(97.7%); stroke(97.76%); cancre(97.82%),bmi(68.19%),At least one primary harmonization variable has >=50% nonmissing.
+SHARE,functional,15814,limited_supporting_only,,gripcomp(99.38%),Only supporting variables pass the missingness threshold; avoid primary class modeling without additional extraction.
+SHARE,cognitive,15814,ready_primary,imrc(97.94%); dlrc(97.81%); orient(99.43%); numer_s(99.15%),,At least one primary harmonization variable has >=50% nonmissing.
+SHARE,affective,15814,ready_primary,eurod(100.0%),,At least one primary harmonization variable has >=50% nonmissing.
+SHARE,cardiometabolic_chronic,15814,ready_primary,hibpe(99.53%); diabe(99.53%); hearte(99.53%); stroke(99.53%); hchole(99.53%); cancre(99.53%),bmi(96.9%),At least one primary harmonization variable has >=50% nonmissing.

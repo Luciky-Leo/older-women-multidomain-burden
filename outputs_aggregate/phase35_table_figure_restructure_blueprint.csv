@@ -1,0 +1,13 @@
+item,current_status,top_journal_problem,recommended_action,main_or_supplement,priority
+Table 1,Denominator and claim-status table,"Useful but too process-focused; lacks wave/year, exclusions, follow-up interval","Convert to cohort/participant-flow/follow-up table with exclusions and role lock","Main",High
+Table 2,Clinical profile family table,"Conceptually right but lacks raw clinical characteristics and uncertainty","Add age and raw clinical indicators by family; mark strict/bridge evidence tier","Main",High
+Table 3,Validation model metrics,"Methodologically useful but too AUC/AIC-centric for clinical readers","Add adjusted OR/RR/RD and absolute event risks; move pure model diagnostics to supplement","Main",High
+Table 4,Harmonization matrix,"Useful, but may distract if final story is clinical outcome-focused","Keep main only for harmonization-atlas framing; otherwise move to supplement","Conditional",Medium
+New Table S2,Missingness not shown,"Complete-case selection bias cannot be assessed","Included vs excluded characteristics and cohort-domain missingness","Supplement or Main",High
+New Table S3,Algorithm robustness missing,"Near-singular GMM covariance threatens class validity","Compare unconstrained GMM, constrained GMM, k-means/hierarchical and continuous scores","Supplement",High
+Fig1,Denominator stacked bars,"Not a STROBE participant-flow figure","Make Panel A participant flow; Panel B cohort role lock","Main",High
+Fig2,Class-level heatmap,"Strong but too dense for print and clinical interpretation","Main: family-level heatmap; supplement: full class-level heatmap","Main plus supplement",High
+Fig3,Validation/stability guardrails,"Reads like methods diagnostics, not clinical outcome evidence","Add forest plot of adjusted functional deterioration associations with absolute risks","Main",High
+Fig4,Harmonization risk matrix,"Good measurement-audit figure but not always main-story figure","Main if atlas/harmonization framing; supplement if outcome framing","Conditional",Medium
+New Supplement Fig,Missingness heatmap,"Missing data pattern invisible","Cohort by domain missingness and complete-case flow","Supplement",Medium
+New Supplement Fig,Robustness dashboard,"GMM instability not visually summarized","Algorithm sensitivity and bootstrap stability dashboard","Supplement",High

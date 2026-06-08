@@ -1,0 +1,6 @@
+domain,local_evidence,phase37_decision
+Mortality,18 mortality CSV outputs; PH flags in 4 cohort rows; 2 rows without major PH/piecewise flag.,Keep mortality secondary with guardrails; not a primary hard-outcome validation endpoint.
+Hospitalization/institutionalization/care dependence,No harmonized phase output found for these endpoints in the current cleaned-data pass.,Do not introduce these endpoints without a new raw/codebook extraction.
+Falls,Fall variable appears only as a KLoSA bridge functional candidate: True.,Do not use as cross-cohort hard endpoint.
+Survey weights/design,Output files matching weight/survey/PSU/strata: 0; candidate inventory hits: 0.,"Blocked until harmonized weight, strata and PSU variables are confirmed per cohort."
+Male comparator/sex interaction,Current analysis intentionally filters women 50+ and has no male analytic table.,State scope limitation; do not claim women-specific mechanisms.

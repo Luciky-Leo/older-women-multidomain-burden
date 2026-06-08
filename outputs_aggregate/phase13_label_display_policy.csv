@@ -1,0 +1,30 @@
+﻿cohort,class_id,analysis_tier,manuscript_role,display_policy,label_action,label_en_current,label_zh_current,label_confidence,manual_review_reason
+CHARLS,CHARLS_C1,strict_primary,primary_validation,main_results,manual_review_before_lock,intermediate-burden severity-aligned,中等负担严重度一致型,low,generic severity-aligned label
+CHARLS,CHARLS_C2,strict_primary,primary_validation,main_results,manual_review_before_lock,elevated-burden severity-aligned,较高负担严重度一致型,low,generic severity-aligned label
+CHARLS,CHARLS_C3,strict_primary,primary_validation,main_results,lock_candidate,functional-dominant high-burden,功能主导型高负担,high,
+ELSA,ELSA_C1,strict_primary,primary_validation,main_results,lock_candidate,intermediate-burden with spared cardiometabolic,心代谢/慢病相对保留的中等负担,moderate,
+ELSA,ELSA_C2,strict_primary,primary_validation,main_results,lock_candidate,cardiometabolic-dominant intermediate-burden,心代谢/慢病主导型中等负担,high,
+ELSA,ELSA_C3,strict_primary,primary_validation,main_results,manual_review_before_lock,elevated-burden severity-aligned,较高负担严重度一致型,low,generic severity-aligned label
+ELSA,ELSA_C4,strict_primary,primary_validation,main_results,lock_candidate,cardiometabolic-dominant elevated-burden,心代谢/慢病主导型较高负担,high,
+ELSA,ELSA_C5,strict_primary,primary_validation,main_results,lock_candidate,functional-dominant high-burden,功能主导型高负担,high,
+HRS,HRS_C1,strict_primary,primary_validation,main_results,lock_candidate,low-burden with spared cardiometabolic,心代谢/慢病相对保留的低负担,moderate,
+HRS,HRS_C2,strict_primary,primary_validation,main_results,lock_candidate,cardiometabolic-dominant intermediate-burden,心代谢/慢病主导型中等负担,high,
+HRS,HRS_C3,strict_primary,primary_validation,main_results,manual_review_before_lock,elevated-burden severity-aligned,较高负担严重度一致型,provisional,mortality HR drift
+HRS,HRS_C4,strict_primary,primary_validation,main_results,manual_review_before_lock,affective-dominant elevated-burden,心理/抑郁主导型较高负担,provisional,mortality HR drift
+HRS,HRS_C5,strict_primary,primary_validation,main_results,manual_review_before_lock,functional-dominant high-burden,功能主导型高负担,provisional,mortality HR drift
+LASI,LASI_C1,strict_primary,baseline_profile_only_current_csv,baseline_profile_table_only,hold_until_followup_available,intermediate-burden with spared cardiometabolic,心代谢/慢病相对保留的中等负担,moderate,baseline profile only in current CSV pass
+LASI,LASI_C2,strict_primary,baseline_profile_only_current_csv,baseline_profile_table_only,hold_until_followup_available,cardiometabolic-dominant intermediate-burden,心代谢/慢病主导型中等负担,high,baseline profile only in current CSV pass
+LASI,LASI_C3,strict_primary,baseline_profile_only_current_csv,baseline_profile_table_only,hold_until_followup_available,cardiometabolic-dominant elevated-burden,心代谢/慢病主导型较高负担,high,baseline profile only in current CSV pass
+MHAS,MHAS_C1,strict_primary,primary_validation,main_results,lock_candidate,intermediate-burden with spared cardiometabolic,心代谢/慢病相对保留的中等负担,moderate,
+MHAS,MHAS_C2,strict_primary,primary_validation,main_results,lock_candidate,cardiometabolic-dominant intermediate-burden,心代谢/慢病主导型中等负担,high,
+MHAS,MHAS_C3,strict_primary,primary_validation,main_results,lock_candidate,cardiometabolic-dominant elevated-burden,心代谢/慢病主导型较高负担,high,
+MHAS,MHAS_C4,strict_primary,primary_validation,main_results,lock_candidate,functional-dominant elevated-burden,功能主导型较高负担,moderate,
+MHAS,MHAS_C5,strict_primary,primary_validation,main_results,lock_candidate,functional-dominant elevated-burden,功能主导型较高负担,moderate,
+KLoSA,KLoSA_C1,bridge_sensitivity,bridge_sensitivity_validation,sensitivity_or_supplement,lock_candidate,intermediate-burden with spared cardiometabolic,心代谢/慢病相对保留的中等负担,moderate,bridge sensitivity cohort
+KLoSA,KLoSA_C2,bridge_sensitivity,bridge_sensitivity_validation,sensitivity_or_supplement,manual_review_before_lock,cardiometabolic-dominant intermediate-burden,心代谢/慢病主导型中等负担,provisional,mortality HR drift; bridge sensitivity cohort
+KLoSA,KLoSA_C3,bridge_sensitivity,bridge_sensitivity_validation,sensitivity_or_supplement,lock_candidate,functional/cardiometabolic-dominant high-burden,功能/心代谢/慢病主导型高负担,high,bridge sensitivity cohort
+SHARE,SHARE_C1,bridge_sensitivity,primary_validation,main_results,lock_candidate,low-burden with spared cardiometabolic,心代谢/慢病相对保留的低负担,moderate,bridge sensitivity cohort
+SHARE,SHARE_C2,bridge_sensitivity,primary_validation,main_results,lock_candidate,cardiometabolic-dominant intermediate-burden,心代谢/慢病主导型中等负担,high,bridge sensitivity cohort
+SHARE,SHARE_C3,bridge_sensitivity,primary_validation,main_results,lock_candidate,affective-dominant intermediate-burden,心理/抑郁主导型中等负担,high,bridge sensitivity cohort
+SHARE,SHARE_C4,bridge_sensitivity,primary_validation,main_results,lock_candidate,elevated-burden with spared functional,功能相对保留的较高负担,moderate,bridge sensitivity cohort
+SHARE,SHARE_C5,bridge_sensitivity,primary_validation,main_results,manual_review_before_lock,functional/cognitive-dominant high-burden,功能/认知主导型高负担,provisional,mortality HR drift; bridge sensitivity cohort

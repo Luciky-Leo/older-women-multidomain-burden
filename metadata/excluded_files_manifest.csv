@@ -1,0 +1,36 @@
+category,source_path,bytes,reason
+output,/mnt/e/Reserch/Older women/outputs/phase13_covariate_participant_screen.csv,14164955,restricted-risk filename pattern: participant
+output,/mnt/e/Reserch/Older women/outputs/phase23_bmc_declarations_completion_template.csv,2496,outdated provenance wording
+output,/mnt/e/Reserch/Older women/outputs/phase31_claude_nature_communications_review_packet.md,13858,internal review/workflow file pattern: claude
+output,/mnt/e/Reserch/Older women/outputs/phase31_claude_severe_review_received.md,30428,internal review/workflow file pattern: claude
+output,/mnt/e/Reserch/Older women/outputs/phase32_decoupled_lfo_assignments.csv,14513052,restricted-risk filename pattern: assignment
+output,/mnt/e/Reserch/Older women/outputs/phase32_decoupled_lfo_participant_screen.csv,30915324,restricted-risk filename pattern: participant
+output,/mnt/e/Reserch/Older women/outputs/phase32_severe_review_action_matrix.csv,4953,internal review/workflow file pattern: severe_review
+output,/mnt/e/Reserch/Older women/outputs/phase32_severe_review_response_plan.md,7330,internal review/workflow file pattern: severe_review
+output,/mnt/e/Reserch/Older women/outputs/phase34_clinical_epidemiology_skill_search.md,4478,internal review/workflow file pattern: skill_search
+output,/mnt/e/Reserch/Older women/outputs/phase35_lancet_nejm_level_severe_review.md,15146,internal review/workflow file pattern: severe_review
+output,/mnt/e/Reserch/Older women/outputs/phase37_cohort_reference_records.xml,89568,not selected for aggregate public package
+output,/mnt/e/Reserch/Older women/outputs/phase37_pubmed_reference_records.xml,158043,not selected for aggregate public package
+output,/mnt/e/Reserch/Older women/outputs/phase38_all_sex_selected_domain_scores.csv,42961870,restricted-risk filename pattern: domain_scores
+output,/mnt/e/Reserch/Older women/outputs/phase3_domain_scores.csv,22585908,restricted-risk filename pattern: domain_scores
+output,/mnt/e/Reserch/Older women/outputs/phase3_domain_scores_long.csv,107975288,restricted-risk filename pattern: domain_scores
+output,/mnt/e/Reserch/Older women/outputs/phase40_claude_review_action_matrix.csv,1996,internal review/workflow file pattern: claude
+output,/mnt/e/Reserch/Older women/outputs/phase41_all_sex_lfo_longitudinal_screen.csv,50513194,restricted-risk filename pattern: longitudinal_screen
+output,/mnt/e/Reserch/Older women/outputs/phase41_hospitalization_candidate_participant_screen.csv,7925279,restricted-risk filename pattern: participant
+output,/mnt/e/Reserch/Older women/outputs/phase41_table4_pdf_render_page_09.png,142141,not selected for aggregate public package
+output,/mnt/e/Reserch/Older women/outputs/phase41_table4_pdf_render_page_13.png,178384,not selected for aggregate public package
+output,/mnt/e/Reserch/Older women/outputs/phase42_persist_full_pool_scored.tsv,11846141,larger than public aggregate limit (11846141 bytes)
+output,/mnt/e/Reserch/Older women/outputs/phase4_best_model_assignments.csv,14394636,restricted-risk filename pattern: assignment
+output,/mnt/e/Reserch/Older women/outputs/phase5_participant_outcome_screen.csv,26965235,restricted-risk filename pattern: participant
+output,/mnt/e/Reserch/Older women/outputs/phase6_mortality_participant_screen.csv,18601389,restricted-risk filename pattern: participant
+output,/mnt/e/Reserch/Older women/outputs/phase7_aic_delta_vs_four_domain_scores.csv,1173,restricted-risk filename pattern: domain_scores
+script,/mnt/e/Reserch/Older women/scripts/apply_openai_s5_direct.py,3281,"generative image application helper, not needed for analysis reproduction"
+script,/mnt/e/Reserch/Older women/scripts/apply_phase48_claude_minor_fixes.py,8093,internal review/workflow file pattern: claude
+script,/mnt/e/Reserch/Older women/scripts/build_phase21_bmc_geriatrics_template_package.py,31311,outdated provenance wording
+script,/mnt/e/Reserch/Older women/scripts/build_phase23_bmc_declarations_completion_pack.py,22293,outdated provenance wording
+script,/mnt/e/Reserch/Older women/scripts/build_phase29_bmc_reviewer_ready_package.py,33260,outdated provenance wording
+script,/mnt/e/Reserch/Older women/scripts/build_phase30_clinical_upgrade_package.py,64866,outdated provenance wording
+script,/mnt/e/Reserch/Older women/scripts/build_phase32_bmc_rescue_package.py,33004,outdated provenance wording
+script,/mnt/e/Reserch/Older women/scripts/build_phase40_claude_revised_package.py,63465,internal review/workflow file pattern: claude
+script,/mnt/e/Reserch/Older women/scripts/build_phase46_simulated_review_revision.py,53218,outdated provenance wording
+script,/mnt/e/Reserch/Older women/scripts/build_phase56_public_reproducibility_release.py,25232,outdated provenance wording

@@ -1,0 +1,8 @@
+cohort	role	selected_wave	selected_k	bootstrap_median_ari	bootstrap_p10_ari	bootstrap_min_ari	algorithm_ari_min	algorithm_ari_median	algorithm_ari_max	near_singular_covariance	max_covariance_condition_number	cautionary_interpretation
+CHARLS	Strict-core	1	3	1.0	0.9274	0.43	0.1233689461059167	0.2595522081531395	1.0	yes	1199523.9855081977	Near-singular full-covariance solution; no latent subtype claim
+ELSA	Strict-core	1	5	0.9461	0.8214	0.3461	0.2194876220543054	0.2509192316894407	1.0	yes	1354678.365229194	Near-singular full-covariance solution; no latent subtype claim
+HRS	Strict-core	5	5	0.9859	0.2828	0.2818	0.1698796986154915	0.1998927568915927	0.9223282374128832	yes	1518608.726468007	Near-singular full-covariance solution; no latent subtype claim
+KLoSA	Functional bridge sensitivity	3	3	0.9751	0.2322	0.225	0.2174782281464885	0.6181231156290335	0.926765233693892	yes	1364626.539221663	Near-singular full-covariance solution; no latent subtype claim
+LASI	Baseline-only descriptive	all_rows_no_wave	3	0.9781	0.977	0.9643	0.0904256100184524	0.2229438068430491	0.9550773167694934	yes	1194111.5546810003	Near-singular full-covariance solution; no latent subtype claim
+MHAS	Strict-core	1	5	0.9783	0.835	0.36	0.1473094121757772	0.1682733670515468	0.9513486194398773	yes	2533332.3976300587	Near-singular full-covariance solution; no latent subtype claim
+SHARE	Validation-downgraded sensitivity	1	4	0.3679	0.3661	0.3618	0.1906910779528871	0.2234169887714264	0.9934228459091192	yes	927580.0212109956	Unstable or validation-downgraded; descriptive only

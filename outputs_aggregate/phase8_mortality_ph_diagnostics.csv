@@ -1,0 +1,26 @@
+﻿analysis_set,analysis_tier,cohort,term,n,events,event_residual_n,pearson_r_with_log_time,pearson_p,spearman_r_with_log_time,spearman_p,ph_flag
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,"C(endotype_class, Treatment(reference='1'))[T.2]",3990,726,726,0.140914,0.00013935,-0.155948,2.437e-05,1
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,"C(endotype_class, Treatment(reference='1'))[T.3]",3990,726,726,-0.084083,0.02347084,0.200584,5e-08,0
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,age,3990,726,726,-0.087455,0.01842929,-0.146269,7.633e-05,0
+strict_earliest_primary,strict_primary,CHARLS,"C(endotype_class, Treatment(reference='1'))[T.2]",5872,704,704,0.003027,0.93610007,-0.36506,0.0,0
+strict_earliest_primary,strict_primary,CHARLS,"C(endotype_class, Treatment(reference='1'))[T.3]",5872,704,704,-0.019535,0.60484286,0.490114,0.0,0
+strict_earliest_primary,strict_primary,CHARLS,age,5872,704,704,0.028499,0.45026092,0.026261,0.48664187,0
+strict_earliest_primary,strict_primary,ELSA,"C(endotype_class, Treatment(reference='1'))[T.2]",5237,353,353,0.059132,0.26785306,-0.563911,0.0,0
+strict_earliest_primary,strict_primary,ELSA,"C(endotype_class, Treatment(reference='1'))[T.3]",5237,353,353,-0.016911,0.75152243,0.641734,0.0,0
+strict_earliest_primary,strict_primary,ELSA,"C(endotype_class, Treatment(reference='1'))[T.4]",5237,353,353,0.012368,0.81687618,0.355954,0.0,0
+strict_earliest_primary,strict_primary,ELSA,"C(endotype_class, Treatment(reference='1'))[T.5]",5237,353,353,-0.141616,0.00770492,0.516466,0.0,1
+strict_earliest_primary,strict_primary,ELSA,age,5237,353,353,0.062076,0.24471062,0.08409,0.11477441,0
+strict_earliest_primary,strict_primary,HRS,"C(endotype_class, Treatment(reference='1'))[T.2]",10044,5569,5569,0.01226,0.3603311,-0.094879,0.0,0
+strict_earliest_primary,strict_primary,HRS,"C(endotype_class, Treatment(reference='1'))[T.3]",10044,5569,5569,-0.018589,0.16542684,0.732785,0.0,0
+strict_earliest_primary,strict_primary,HRS,"C(endotype_class, Treatment(reference='1'))[T.4]",10044,5569,5569,-0.038704,0.00386785,0.559021,0.0,0
+strict_earliest_primary,strict_primary,HRS,"C(endotype_class, Treatment(reference='1'))[T.5]",10044,5569,5569,-0.058919,1.084e-05,0.695485,0.0,1
+strict_earliest_primary,strict_primary,HRS,age,10044,5569,5569,0.063787,1.9e-06,0.026381,0.04899549,1
+strict_earliest_primary,strict_primary,MHAS,"C(endotype_class, Treatment(reference='1'))[T.2]",6487,2236,2236,0.030509,0.14924873,-0.428459,0.0,0
+strict_earliest_primary,strict_primary,MHAS,"C(endotype_class, Treatment(reference='1'))[T.3]",6487,2236,2236,-0.009413,0.6564145,0.522403,0.0,0
+strict_earliest_primary,strict_primary,MHAS,"C(endotype_class, Treatment(reference='1'))[T.4]",6487,2236,2236,-0.032116,0.12896128,0.648706,0.0,0
+strict_earliest_primary,strict_primary,MHAS,"C(endotype_class, Treatment(reference='1'))[T.5]",6487,2236,2236,-0.029693,0.16043701,0.664709,0.0,0
+strict_earliest_primary,strict_primary,MHAS,age,6487,2236,2236,0.016323,0.44043748,0.015646,0.45960501,0
+strict_earliest_primary,strict_primary,SHARE,"C(endotype_class, Treatment(reference='1'))[T.2]",12960,3201,3201,0.030046,0.08919379,-0.382549,0.0,0
+strict_earliest_primary,strict_primary,SHARE,"C(endotype_class, Treatment(reference='1'))[T.3]",12960,3201,3201,-0.003653,0.83633774,0.195153,0.0,0
+strict_earliest_primary,strict_primary,SHARE,"C(endotype_class, Treatment(reference='1'))[T.4]",12960,3201,3201,-0.083234,2.41e-06,0.439215,0.0,1
+strict_earliest_primary,strict_primary,SHARE,age,12960,3201,3201,0.022819,0.19681316,-0.011313,0.52226796,0

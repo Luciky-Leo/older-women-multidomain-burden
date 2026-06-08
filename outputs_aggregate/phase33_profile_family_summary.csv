@@ -1,0 +1,14 @@
+clinical_family,main_table_group,profile_label,selected_classes,represented_cohorts,participants,participant_pct_of_selected_profiles,min_class_pct,max_class_pct,mean_severity_z,mean_functional_z,mean_cognitive_z,mean_affective_z,mean_cardiometabolic_chronic_z
+"Intermediate burden, cardiometabolic/chronic spared",recurrent family,intermediate_spared_cardiometabolic_chronic,6,"ELSA, HRS, KLoSA, LASI, MHAS, SHARE",33498,43.91,35.25,58.01,-0.38,-0.29,-0.16,-0.2,-0.87
+"Intermediate burden, severity aligned",recurrent family,intermediate_severity_aligned,5,"CHARLS, ELSA, HRS, SHARE",8609,11.28,8.53,73.42,0.24,0.23,0.22,0.23,0.28
+"Intermediate burden, cardiometabolic/chronic high with function spared",recurrent family,intermediate_high_cardiometabolic_chronic_spared_functional,4,"ELSA, HRS, LASI, SHARE",17633,23.11,20.56,43.4,-0.03,-0.45,-0.14,-0.14,0.62
+"Intermediate burden, cardiometabolic/chronic high",recurrent family,intermediate_high_cardiometabolic_chronic,2,"KLoSA, MHAS",3695,4.84,33.67,34.99,-0.01,-0.31,-0.13,-0.08,0.5
+"High burden, functional dominant with cardiometabolic/chronic spared",recurrent family,high_burden_high_functional_spared_cardiometabolic_chronic,2,"CHARLS, MHAS",1380,1.81,6.94,15.17,0.76,1.83,0.48,0.61,0.12
+"High burden, functional dominant with cognition relatively spared",recurrent family,high_burden_high_functional_spared_cognitive,2,"HRS, MHAS",1169,1.53,6.36,7.72,0.93,1.83,0.46,0.77,0.64
+"High burden, cardiometabolic/chronic dominant with cognition spared",cohort-specific family,high_burden_high_cardiometabolic_chronic_spared_cognitive,1,LASI,5877,7.7,21.42,21.42,0.51,0.72,0.13,0.17,1.04
+"High burden, functional/cognitive dominant with affective and cardiometabolic/chronic partly spared",cohort-specific family,high_burden_high_functional_spared_affective_cardiometabolic_chronic,1,SHARE,1138,1.49,7.24,7.24,1.6,2.94,1.69,1.03,0.72
+"High burden, cardiometabolic/chronic dominant with function and cognition spared",cohort-specific family,high_burden_high_cardiometabolic_chronic_spared_functional_cognitive,1,MHAS,760,1.0,11.29,11.29,0.54,-0.02,0.07,0.29,1.8
+"High burden, severity aligned",cohort-specific family,high_burden_severity_aligned,1,KLoSA,667,0.87,16.34,16.34,1.01,1.12,0.96,0.72,1.25
+"High burden, affective dominant with cardiometabolic/chronic spared",cohort-specific family,high_burden_high_affective_spared_cardiometabolic_chronic,1,HRS,659,0.86,6.46,6.46,0.69,0.77,0.49,1.5,0.01
+"High burden, functional dominant with cognition and cardiometabolic/chronic spared",cohort-specific family,high_burden_high_functional_spared_cognitive_cardiometabolic_chronic,1,ELSA,659,0.86,10.8,10.8,1.04,2.48,0.39,0.82,0.48
+"Intermediate burden, cardiometabolic/chronic high with function and affective symptoms spared",cohort-specific family,intermediate_high_cardiometabolic_chronic_spared_functional_affective,1,ELSA,549,0.72,8.99,8.99,0.41,-0.42,0.2,0.03,1.83

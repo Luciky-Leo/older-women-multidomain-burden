@@ -1,0 +1,11 @@
+﻿file,bytes,role
+README_BMC_Geriatrics_review_ready.md,1105,package_notes
+additional_file_1_class_profiles.csv,10119,additional_file
+additional_file_2_outcome_validation.csv,5327,additional_file
+bmc_geriatrics_cover_letter.md,1678,cover_letter
+bmc_geriatrics_main.tex,14254,main_latex_manuscript
+bmc_geriatrics_refs.bib,1480,bibtex_references
+figure1_main_validation.png,1232988,figure_file
+figure1_seven_cohort_sensitivity.png,1382667,figure_file
+sn-jnl.cls,55857,springer_nature_template_file
+sn-vancouver-num.bst,40758,springer_nature_template_file

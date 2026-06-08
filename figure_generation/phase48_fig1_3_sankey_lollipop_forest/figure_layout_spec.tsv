@@ -1,0 +1,4 @@
+Figure	Panel	Panel role	Final x mm	Final y mm	Final width mm	Final height mm	Render width mm	Render height mm	Scale in assembly	Panel label x mm	Panel label y mm	Font target	Line width target	Output PDF/SVG	Output PNG	Reason
+Fig1	A	Sankey/alluvial single-panel	0	0	180	116	180	116	100%	4	4	Arial 7-8 pt	0.6 pt	figure1_sankey_alluvial_phase48.svg	figure1_sankey_alluvial_phase48.png	single final-size render
+Fig2	A-C	Raincloud, bubble matrix, lollipop triptych	0	0	180	120	180	120	100%	4	4	Arial 7-8 pt	0.6 pt	figure2_lollipop_matrix_phase48.svg	figure2_lollipop_matrix_phase48.png	scripted composite at final size
+Fig3	A-B	Forest table plus ellipse scatter	0	0	180	118	180	118	100%	4	4	Arial 7-8 pt	0.6 pt	figure3_forest_scatter_ellipse_phase48.svg	figure3_forest_scatter_ellipse_phase48.png	scripted composite at final size

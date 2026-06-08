@@ -1,0 +1,92 @@
+cohort	domain	domain_display	cell_label	risk	risk_score	nonmissing_pct	variables	flags	notes
+CHARLS	functional	Functional	"Partial
+99.1%
+IADL only"	Partial	2	99.13	iadl	partial_functional_iadl_only	Functional domain uses IADL only in the current cleaned data.
+CHARLS	cognitive	Cognitive	"Cohort-specific
+87.6%
+cognitive score"	Cohort-specific	1	87.58	total_cognition	cohort_specific_global_cognitive_score; partial_cognitive_item_battery	Cognitive item batteries differ by cohort and were standardized within cohort/wave. | Global cognitive scores are harmonized by orientation/z-scoring but not item-identical.
+CHARLS	affective	Affective	"Primary
+92.8%
+CES-D family"	Primary	0	92.82	cesd10	cesd_family_affective_scale	CES-D-family depressive symptom scale.
+CHARLS	cardiometabolic_chronic	"Cardiometabolic/
+chronic"	"Primary
+99.3%
+chronic count"	Primary	0	99.26	hibpe+diabe+hearte+stroke+dyslipe+cancre	core_chronic_condition; optional_lipid_condition	Common chronic-condition indicator used in disease-count domain. | Lipid/high-cholesterol item is present in some but not all cohorts.
+ELSA	functional	Functional	"Primary
+98.5%
+ADL/IADL"	Primary	0	98.51	adltot6+iadltot2_e	strict_core_adl_iadl	ADL/IADL or direct limitation variables available.
+ELSA	cognitive	Cognitive	"Cohort-specific
+97.5%
+cognitive score"	Cohort-specific	1	97.52	imrc+dlrc+orient	cohort_specific_global_cognitive_score; partial_cognitive_item_battery	Cognitive item batteries differ by cohort and were standardized within cohort/wave. | Global cognitive scores are harmonized by orientation/z-scoring but not item-identical.
+ELSA	affective	Affective	"Primary
+97.1%
+CES-D family"	Primary	0	97.09	cesd	cesd_family_affective_scale	CES-D-family depressive symptom scale.
+ELSA	cardiometabolic_chronic	"Cardiometabolic/
+chronic"	"Primary
+99.9%
+chronic count"	Primary	0	99.94	hibpe+diabe+hearte+stroke+hchole+cancre	core_chronic_condition; optional_lipid_condition	Common chronic-condition indicator used in disease-count domain. | Lipid/high-cholesterol item is present in some but not all cohorts.
+HRS	functional	Functional	"Partial
+99.8%
+ADL only"	Partial	2	99.85	adl6a	partial_functional_adl_only	Functional domain uses ADL only in the current cleaned data.
+HRS	cognitive	Cognitive	"Cohort-specific
+92.8%
+cognitive score"	Cohort-specific	1	92.81	cog27	cohort_specific_global_cognitive_score; partial_cognitive_item_battery	Cognitive item batteries differ by cohort and were standardized within cohort/wave. | Global cognitive scores are harmonized by orientation/z-scoring but not item-identical.
+HRS	affective	Affective	"Primary
+92.8%
+CES-D family"	Primary	0	92.78	cesd	cesd_family_affective_scale	CES-D-family depressive symptom scale.
+HRS	cardiometabolic_chronic	"Cardiometabolic/
+chronic"	"Primary
+100.0%
+chronic count"	Primary	0	100.0	hibpe+diabe+hearte+stroke+hchole+cancre	core_chronic_condition; optional_lipid_condition	Common chronic-condition indicator used in disease-count domain. | Lipid/high-cholesterol item is present in some but not all cohorts.
+KLoSA	functional	Functional	"Bridge
+100.0%
+grip/falls proxy"	Bridge	3	100.0	gripsum+gripcomp+fall	bridge_proxy	Bridge source; not equivalent to strict ADL/IADL limitation.
+KLoSA	cognitive	Cognitive	"Cohort-specific
+94.7%
+cognitive score"	Cohort-specific	1	94.73		cohort_specific_global_cognitive_score	Global cognitive scores are harmonized by orientation/z-scoring but not item-identical.
+KLoSA	affective	Affective	"Primary
+99.1%
+CES-D family"	Primary	0	99.1	cesd10a	cesd_family_affective_scale	CES-D-family depressive symptom scale.
+KLoSA	cardiometabolic_chronic	"Cardiometabolic/
+chronic"	"Primary
+100.0%
+chronic count"	Primary	0	100.0	hibpe+diabe+hearte+stroke+cancre	core_chronic_condition	Common chronic-condition indicator used in disease-count domain.
+LASI	functional	Functional	"Primary
+99.7%
+ADL/IADL"	Primary	0	99.69	r1adltot6+r1iadltot_l	strict_core_adl_iadl	ADL/IADL or direct limitation variables available.
+LASI	cognitive	Cognitive	"Cohort-specific
+98.8%
+cognitive score"	Cohort-specific	1	98.76	r1cog_total	cohort_specific_global_cognitive_score	Global cognitive scores are harmonized by orientation/z-scoring but not item-identical.
+LASI	affective	Affective	"Primary
+97.4%
+CES-D family"	Primary	0	97.43	r1cesd10	cesd_family_affective_scale	CES-D-family depressive symptom scale.
+LASI	cardiometabolic_chronic	"Cardiometabolic/
+chronic"	"Primary
+99.8%
+chronic count"	Primary	0	99.82	r1hibpe+r1diabe+r1hearte+r1stroke+r1hchole+r1cancre	core_chronic_condition; optional_lipid_condition	Common chronic-condition indicator used in disease-count domain. | Lipid/high-cholesterol item is present in some but not all cohorts.
+MHAS	functional	Functional	"Primary
+93.9%
+ADL/IADL"	Primary	0	93.92	adltot6+iadlfour	strict_core_adl_iadl	ADL/IADL or direct limitation variables available.
+MHAS	cognitive	Cognitive	"Cohort-specific
+92.7%
+cognitive score"	Cohort-specific	1	92.73	imrc8+dlrc8+ser7+orient_m	partial_cognitive_item_battery	Cognitive item batteries differ by cohort and were standardized within cohort/wave.
+MHAS	affective	Affective	"Primary
+93.7%
+CES-D family"	Primary	0	93.67	cesd_m	cesd_family_affective_scale	CES-D-family depressive symptom scale.
+MHAS	cardiometabolic_chronic	"Cardiometabolic/
+chronic"	"Primary
+97.9%
+chronic count"	Primary	0	97.92	hibpe+diabe+hearte+stroke+cancre	core_chronic_condition	Common chronic-condition indicator used in disease-count domain.
+SHARE	functional	Functional	"Primary
+100.0%
+ADL/IADL"	Primary	0	100.0	adl+iadl	strict_core_adl_iadl	ADL/IADL or direct limitation variables available.
+SHARE	cognitive	Cognitive	"Cohort-specific
+99.5%
+cognitive score"	Cohort-specific	1	99.47	imrc+dlrc+orient+ser7+numer_s	partial_cognitive_item_battery	Cognitive item batteries differ by cohort and were standardized within cohort/wave.
+SHARE	affective	Affective	"Alternate instrument
+100.0%
+EURO-D"	Alternate instrument	2	100.0	eurod	non_cesd_affective_scale	SHARE uses EURO-D rather than CES-D.
+SHARE	cardiometabolic_chronic	"Cardiometabolic/
+chronic"	"Primary
+99.5%
+chronic count"	Primary	0	99.53	hibpe+diabe+hearte+stroke+hchole+cancre	core_chronic_condition; optional_lipid_condition	Common chronic-condition indicator used in disease-count domain. | Lipid/high-cholesterol item is present in some but not all cohorts.

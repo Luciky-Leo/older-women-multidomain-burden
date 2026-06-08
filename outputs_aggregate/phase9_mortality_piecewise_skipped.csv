@@ -1,0 +1,2 @@
+﻿analysis_set,analysis_tier,cohort,period,n,events,skip_reason
+strict_earliest_primary,strict_primary,LASI,all,0,0,no_available_rows_or_too_few_deaths

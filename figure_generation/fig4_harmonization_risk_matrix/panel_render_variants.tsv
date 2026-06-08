@@ -1,0 +1,2 @@
+Panel	Option	Renderer	Runtime	Env	Input	Output	Decision
+Fig4	F4N1	native_harmonization_matrix	Python	research-py312	outputs/phase28_domain_harmonization_dictionary.csv; outputs/phase32_item_level_harmonization_crosswalk.csv	outputs/fig4/fig4_harmonization_risk_matrix.png; outputs/fig4/fig4_harmonization_risk_matrix.pdf; outputs/fig4/fig4_harmonization_risk_matrix.svg	selected

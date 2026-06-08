@@ -1,0 +1,3 @@
+manuscript/bmc_geriatrics_declarations_ready_package.zip,2433578
+manuscript/bmc_geriatrics_declarations_ready_pdf_ready_package.zip,3715481
+manuscript/bmc_geriatrics_submission_declarations_ready/bmc_geriatrics_main.pdf,1387943

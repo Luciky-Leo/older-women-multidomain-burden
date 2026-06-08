@@ -1,0 +1,8 @@
+﻿cohort,weight_cleaned_candidate,psu_cleaned_candidate,strata_cleaned_candidate,candidate_triplet_all_three_cleaned_headers,candidate_triplet_all_three_any_metadata,harmonized_triplet_status,analysis_decision,phase47_population_claim_implication
+CHARLS,1,1,1,1,0,no_codebook_confirmed_harmonized_triplet,survey-weighted model not run in Phase41,not sufficient for harmonized seven-cohort survey-weighted prevalence claim
+ELSA,1,1,1,1,0,no_codebook_confirmed_harmonized_triplet,survey-weighted model not run in Phase41,not sufficient for harmonized seven-cohort survey-weighted prevalence claim
+HRS,1,1,1,1,1,candidate_triplet_needs_manual_confirmation,survey-weighted model not run in Phase41,candidate triplet needs manual codebook confirmation before weighted sensitivity
+KLoSA,1,1,1,1,1,candidate_triplet_needs_manual_confirmation,survey-weighted model not run in Phase41,candidate triplet needs manual codebook confirmation before weighted sensitivity
+LASI,1,1,1,1,1,candidate_triplet_needs_manual_confirmation,survey-weighted model not run in Phase41,candidate triplet needs manual codebook confirmation before weighted sensitivity
+MHAS,1,1,1,1,0,no_codebook_confirmed_harmonized_triplet,survey-weighted model not run in Phase41,not sufficient for harmonized seven-cohort survey-weighted prevalence claim
+SHARE,1,1,1,1,1,candidate_triplet_needs_manual_confirmation,survey-weighted model not run in Phase41,candidate triplet needs manual codebook confirmation before weighted sensitivity

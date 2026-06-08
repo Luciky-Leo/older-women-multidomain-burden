@@ -1,0 +1,7 @@
+﻿analysis_set,analysis_tier,cohort,n,events,tested_terms,flagged_terms,min_pearson_p,max_abs_pearson_r,ph_screen_flag,piecewise_terms_tested,large_time_drift_terms,direction_change_terms,max_late_vs_early_hr_ratio,mortality_interpretation
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,3990,726,3,1,0.00013935,0.140914,1,2,1,1,2.060486252808687,secondary_with_guardrail
+strict_earliest_primary,strict_primary,CHARLS,5872,704,3,0,0.45026092,0.028499,0,2,0,0,0.9677495059873444,secondary_no_major_ph_or_piecewise_flag
+strict_earliest_primary,strict_primary,ELSA,5237,353,5,1,0.00770492,0.141616,1,4,0,0,0.9617737914403728,secondary_with_guardrail
+strict_earliest_primary,strict_primary,HRS,10044,5569,5,2,1.9e-06,0.063787,1,4,3,0,0.765719778947297,secondary_with_guardrail
+strict_earliest_primary,strict_primary,MHAS,6487,2236,5,0,0.12896128,0.032116,0,4,0,0,1.097848109796824,secondary_no_major_ph_or_piecewise_flag
+strict_earliest_primary,strict_primary,SHARE,12960,3201,4,1,2.41e-06,0.083234,1,3,0,0,0.9524753991298676,secondary_with_guardrail

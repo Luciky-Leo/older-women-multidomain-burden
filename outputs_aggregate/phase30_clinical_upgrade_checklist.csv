@@ -1,0 +1,11 @@
+﻿check,status,details
+clinical_reference_frame_written,pass,WHO/frailty/intrinsic-capacity anchors
+clinical_dictionary_written,pass,full class-level clinical dictionary
+table_figure_blueprint_written,pass,main and supplementary table/figure roles
+figure1_present,pass,clinical flow
+figure2_present,pass,endotype heatmap
+figure3_present,pass,functional validation
+no_linenumber_class_option,pass,"\documentclass[referee,pdflatex,sn-vancouver-num]{sn-jnl}"
+pdf_present,pass,manuscript/bmc_geriatrics_submission_clinical_upgrade/bmc_geriatrics_main.pdf
+author_placeholders_remaining,needs_author_input,5
+policy_placeholders_remaining,needs_policy_decision,1

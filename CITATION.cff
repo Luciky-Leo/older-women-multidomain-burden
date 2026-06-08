@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite this archived release."
+title: "Code and aggregate materials for multidomain burden among older women across seven international ageing cohorts"
+version: "v1.0.0-submission"
+date-released: "2026-06-08"
+authors:
+  - family-names: Lu
+    given-names: Feifan
+  - family-names: Chen
+    given-names: Jun
+  - family-names: Shen
+    given-names: Jizi
+  - family-names: Guan
+    given-names: Rui
+  - family-names: Li
+    given-names: Li
+repository-code: "https://github.com/Luciky-Leo/older-women-multidomain-burden"
+abstract: "Public code, aggregate non-identifying outputs, supplementary workbooks, and figure-generation materials for a seven-cohort descriptive audit of multidomain burden among older women."
+keywords:
+  - ageing
+  - older women
+  - harmonization
+  - Gaussian mixture model
+  - reproducibility
+license: MIT

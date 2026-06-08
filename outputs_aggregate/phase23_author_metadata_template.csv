@@ -1,0 +1,9 @@
+﻿field,value,required,notes
+corresponding_author_name,,yes,Replace placeholder in TeX.
+corresponding_author_email,,yes,Replace placeholder in TeX.
+affiliation_1,,yes,"Department, institution, city, country."
+affiliation_2,,if_applicable,Add or remove author/affiliation blocks as needed.
+author_order,,yes,Confirm author list and order.
+repository_url_for_code,,recommended,Needed if code will be shared.
+funding_statement,,yes,Include grant numbers and funder role.
+competing_interests,,yes,Confirm with all authors.

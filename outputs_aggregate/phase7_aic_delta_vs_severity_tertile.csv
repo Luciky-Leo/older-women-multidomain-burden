@@ -1,0 +1,19 @@
+﻿cohort,endpoint,delta_aic_favors_endotype,comparator
+KLoSA,Chronic progression,8.224999999999454,severity_tertile
+KLoSA,Functional deterioration,7.041999999999462,severity_tertile
+CHARLS,Chronic progression,0.8640000000004875,severity_tertile
+CHARLS,Functional deterioration,-15.197000000000116,severity_tertile
+ELSA,Chronic progression,-1.175000000000182,severity_tertile
+ELSA,Functional deterioration,-37.31899999999951,severity_tertile
+HRS,Chronic progression,-32.375,severity_tertile
+HRS,Functional deterioration,-83.33100000000013,severity_tertile
+MHAS,Chronic progression,193.73399999999947,severity_tertile
+MHAS,Functional deterioration,23.256000000000316,severity_tertile
+SHARE,Chronic progression,71.85900000000038,severity_tertile
+SHARE,Functional deterioration,3087.2920000000004,severity_tertile
+KLoSA,Mortality,-38.39099999999962,severity_tertile
+CHARLS,Mortality,-17.847999999999956,severity_tertile
+ELSA,Mortality,-4.909999999999855,severity_tertile
+HRS,Mortality,-266.0649999999878,severity_tertile
+MHAS,Mortality,67.69500000000698,severity_tertile
+SHARE,Mortality,83.36899999999878,severity_tertile

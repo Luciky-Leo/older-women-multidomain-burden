@@ -1,0 +1,22 @@
+﻿audit_type,cohort,concept,variable,raw_header,source_file,nonmissing_n,nonmissing_pct,sample_values,harmonization_status,decision
+survey_design,CHARLS,weight,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/charls.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,CHARLS,psu,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/charls.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,CHARLS,strata,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/charls.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,ELSA,weight,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/elsa.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,ELSA,psu,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/elsa.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,ELSA,strata,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/elsa.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,HRS,weight,wtresp,wtresp (个体权重),/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/hrs.csv,208674,100.0,3390|3915|4056|4067|4093|4287|4806|4893,candidate_header_only,requires cohort codebook mapping before analysis use
+survey_design,HRS,psu,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/hrs.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,HRS,strata,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/hrs.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,KLoSA,weight,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/klosa.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,KLoSA,psu,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/klosa.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,KLoSA,strata,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/klosa.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,LASI,weight,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/lasi.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,LASI,psu,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/lasi.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,LASI,strata,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/lasi.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,MHAS,weight,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/mhas.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,MHAS,psu,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/mhas.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,MHAS,strata,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/mhas.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,SHARE,weight,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/share.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,SHARE,psu,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/share.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+survey_design,SHARE,strata,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/share.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis

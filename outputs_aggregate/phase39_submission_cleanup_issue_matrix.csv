@@ -1,0 +1,8 @@
+﻿issue,phase39_action,status
+duplicate Phase38 manuscript insertion,Section-level TeX replacement now keeps one methods paragraph for cohort guardrails and one for hard-outcome/mortality guardrails.,fixed
+LASI mortality unavailable represented as zero events,LASI mortality follow-up and death fields are written as unavailable/NA in the mortality guardrail table.,fixed
+Table 1 versus Table 3 denominator mismatch,Table 1 now labels endpoint availability before covariate-complete LFO model restrictions; Table 3 footnote states its denominator is the covariate-complete LFO model set.,fixed
+survey-weight and male-comparator wording,Survey design wording is limited to cleaned-file header audit; male comparator is described as a separately standardized all-sex baseline scale.,fixed
+baseline covariate table gap,Table 1 adds education raw-category distribution plus marital and rural/region raw=1 proportions.,fixed with raw-code caveat
+Table 2 sensitivity support weakens strict-core claim,Main Table 2 is strict-core only; sensitivity support moved to Additional file 25.,fixed
+GMM reproducibility details insufficient,"Methods now report covariance type, regularization, n_init, max_iter, random states, class-selection rule, bootstrap counts and software families.",fixed

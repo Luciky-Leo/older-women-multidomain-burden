@@ -1,0 +1,7 @@
+﻿analysis_set,analysis_tier,cohort,n,events,tested_terms,flagged_terms,min_pearson_p,max_abs_pearson_r,ph_screen_flag
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,3990,726,3,1,0.00013935,0.140914,1
+strict_earliest_primary,strict_primary,CHARLS,5872,704,3,0,0.45026092,0.028499,0
+strict_earliest_primary,strict_primary,ELSA,5237,353,5,1,0.00770492,0.141616,1
+strict_earliest_primary,strict_primary,HRS,10044,5569,5,2,1.9e-06,0.063787,1
+strict_earliest_primary,strict_primary,MHAS,6487,2236,5,0,0.12896128,0.032116,0
+strict_earliest_primary,strict_primary,SHARE,12960,3201,4,1,2.41e-06,0.083234,1

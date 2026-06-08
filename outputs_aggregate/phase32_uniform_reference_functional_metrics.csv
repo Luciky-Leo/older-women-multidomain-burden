@@ -1,0 +1,7 @@
+﻿analysis_set,analysis_tier,cohort,outcome,model_type,adjustment,reference,n,events,event_pct,aic,bic_llf,auc,converged
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,1,3834,1144,29.84,4615.966,4640.973,0.58,1
+strict_earliest_primary,strict_primary,CHARLS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,1,5691,1766,31.03,6721.782,6748.369,0.6423,1
+strict_earliest_primary,strict_primary,ELSA,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,1,5153,1316,25.54,5144.713,5183.997,0.7394,1
+strict_earliest_primary,strict_primary,HRS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,1,9431,3546,37.6,11506.008,11548.919,0.6924,1
+strict_earliest_primary,strict_primary,MHAS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,1,5443,1437,26.4,5972.038,6011.651,0.6687,1
+strict_earliest_primary,strict_primary,SHARE,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,1,12205,1525,12.49,4604.766,4641.814,0.9294,1

@@ -1,0 +1,19 @@
+﻿cohort,clean_csv,variable,label_from_working_dta,role,usable_for_mortality_screen
+CHARLS,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/charls.csv,iwstat,本期是否死亡,death_status,1
+CHARLS,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/charls.csv,radyear,死亡年份,death_year,1
+CHARLS,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/charls.csv,radmonth,死亡月份,death_month,1
+ELSA,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/elsa.csv,iwstat,是否死亡,death_status,1
+ELSA,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/elsa.csv,radyear,死亡年份,death_year,1
+HRS,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/hrs.csv,iwstat,是否死亡,death_status,1
+HRS,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/hrs.csv,radyear,死亡年份,death_year,1
+HRS,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/hrs.csv,radmonth,死亡月份,death_month,1
+KLoSA,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/klosa.csv,iwstat,本期是否存活,death_status,1
+KLoSA,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/klosa.csv,radyear,死亡年份,death_year,1
+KLoSA,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/klosa.csv,radmonth,死亡月份,death_month,1
+LASI,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/lasi.csv,,,,0
+MHAS,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/mhas.csv,iwstat,是否死亡,death_status,1
+MHAS,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/mhas.csv,radyear,死亡年份,death_year,1
+MHAS,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/mhas.csv,radmonth,死亡月份,death_month,1
+SHARE,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/share.csv,iwstat,是否死亡,death_status,1
+SHARE,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/share.csv,radyear,死亡年份,death_year,1
+SHARE,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/share.csv,radmonth,死亡月份,death_month,1

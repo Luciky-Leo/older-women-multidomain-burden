@@ -1,0 +1,8 @@
+﻿analysis_set,analysis_tier,cohort,baseline_n,mortality_followup_available_n,mortality_followup_available_pct,death_n,death_pct,median_followup_time_years,max_followup_time_years,ph_screen_flag,large_time_drift_terms,direction_change_terms,mortality_interpretation,phase38_decision
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,4081,3990,97.77,726,18.2,10.0,10.88,1.0,1.0,1.0,secondary_with_guardrail,secondary guardrail with PH or time-drift caveat
+strict_earliest_primary,strict_primary,CHARLS,6019,5872,97.56,704,11.99,9.0,9.29,0.0,0.0,0.0,secondary_no_major_ph_or_piecewise_flag,secondary guardrail only; no primary hard-outcome claim
+strict_earliest_primary,strict_primary,ELSA,6104,5237,85.8,353,6.74,12.0,17.0,1.0,0.0,0.0,secondary_with_guardrail,secondary guardrail with PH or time-drift caveat
+strict_earliest_primary,strict_primary,HRS,10202,10044,98.45,5569,55.45,15.88,21.29,1.0,3.0,0.0,secondary_with_guardrail,secondary guardrail with PH or time-drift caveat
+strict_earliest_primary,strict_primary,LASI,27433,0,0.0,0,,,,,,,,unavailable in current cleaned pass
+strict_earliest_primary,strict_primary,MHAS,6733,6487,96.35,2236,34.47,17.0,18.0,0.0,0.0,0.0,secondary_no_major_ph_or_piecewise_flag,secondary guardrail only; no primary hard-outcome claim
+strict_earliest_primary,strict_primary,SHARE,15721,12960,82.44,3201,24.7,11.0,17.96,1.0,0.0,0.0,secondary_with_guardrail,secondary guardrail with PH or time-drift caveat

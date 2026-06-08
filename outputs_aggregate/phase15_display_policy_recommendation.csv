@@ -1,0 +1,8 @@
+cohort,analysis_tier,manuscript_role,baseline_women_age50plus_n,selected_endotype_n,functional_followup_n,mortality_followup_n,phase15_display_recommendation,figure1_policy,condition_for_main_display,ready_for_manual_lock_n,manual_review_required_n,hold_baseline_only_n
+CHARLS,strict_primary,primary_validation,6878,6019,5691,5872,main_results,main_panel,Use in main Results and main Figure 1 with standard strict-primary denominators.,1,2,0
+ELSA,strict_primary,primary_validation,6292,6104,5153,5237,main_results,main_panel,Use in main Results and main Figure 1 with standard strict-primary denominators.,3,2,0
+HRS,strict_primary,primary_validation,11005,10202,9431,10044,main_results,main_panel,Use in main Results and main Figure 1 with standard strict-primary denominators.,2,3,0
+MHAS,strict_primary,primary_validation,7440,6733,5443,6487,main_results,main_panel,Use in main Results and main Figure 1 with standard strict-primary denominators.,5,0,0
+KLoSA,bridge_sensitivity,bridge_sensitivity_validation,4344,4081,3834,3990,sensitivity_or_supplement_default,sensitivity_panel_default,May appear in the main figure only with an explicit bridge-sensitivity or wave-adjusted denominator footnote.,2,1,0
+SHARE,bridge_sensitivity,bridge_sensitivity_validation,15814,36006,20532,22732,sensitivity_or_supplement_default,sensitivity_panel_default,May appear in the main figure only with an explicit bridge-sensitivity or wave-adjusted denominator footnote.,3,2,0
+LASI,strict_primary,baseline_profile_only_current_csv,28165,27433,0,0,baseline_profile_table_only,table_or_supplement_profile_only,Do not use in outcome-validation panels until follow-up validation is available.,0,0,3

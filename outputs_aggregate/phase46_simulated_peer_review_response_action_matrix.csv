@@ -1,0 +1,15 @@
+﻿priority,review_issue,action,status
+P0,Sex-interaction contradiction,Rewrote background/discussion to report exploratory all-sex interaction screens as mostly null and not used for women-specific claims.,fixed in Phase46
+P0,Survey-design contradiction,Reframed survey wording around raw/codebook candidate triplets but no codebook-confirmed harmonized seven-cohort triplet.,fixed in Phase46
+P0,Mortality hidden from main text,Promoted formal secondary mortality Cox models to Table 4 and added Results/Discussion text.,fixed in Phase46
+P1,Table 1 too sparse,"Rebuilt Table 1 with BMI, smoking, drinking, covariate availability, rural/region candidate, selected wave and selection/follow-up summaries.",fixed in Phase46
+P1,Figure 1 dashboard/3D element,Redrew Figure 1 as a per-cohort STROBE-style denominator flow without 3D or pie elements.,fixed in Phase46
+P1,Figure 3 decorative density curves,Redrew Figure 3 as point and interval displays for risk differences and delta AUC.,fixed in Phase46
+P1,Figure 2 low-value tier-distribution panel,"Redrew Figure 2 as bootstrap stability, cross-method ARI and covariance-condition panels only.",fixed in Phase46
+P1,Decision-curve evidence absent,Added a guardrail sentence reporting continuous net benefit exceeded profile net benefit in 15/20 strict-core thresholds; apparent calibration is not interpreted as validation.,fixed in text
+P1,No cross-cohort heterogeneity statistic,"Added DerSimonian-Laird random-effects Q, I2 and tau2 summaries for strict-core LFO functional-change RR and secondary mortality HR.",fixed in Phase46
+P1,Post-Phase46 heterogeneity wording,Changed I2 near 80% from moderate to considerable/high and stated pooled estimates are descriptive under high heterogeneity.,fixed after re-review
+P1,Post-Phase46 PH and DCA caveats,Added time-averaged guardrail wording for PH/time-drift-flagged mortality HRs and apparent in-sample wording for decision-curve net benefit.,fixed after re-review
+P2,Post-Phase46 duplicated AF32 and Figure 2 legend,Removed duplicate Additional file 32 insertion and clarified Figure 2A median/p10/min ARI symbols.,fixed after re-review
+P2,Secondary/public-data wording,Replaced secondary-data wording with approved/downloaded de-identified cohort datasets cleaned and harmonized locally by the authors.,fixed in Phase46
+P2,Stale action matrix,Updated Additional file 11 content to this simulated peer-review response action matrix.,fixed in Phase46

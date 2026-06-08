@@ -1,0 +1,32 @@
+﻿analysis_set,analysis_tier,cohort,outcome,model_type,adjustment,term,term_label,reference,log_or,or,ci_low,ci_high,p_value
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,Intercept,Intercept,1,-2.291747,0.1011,0.0628,0.1627,0.0
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.2]",2,1,0.328679,1.3891,1.1919,1.6191,2.6e-05
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.3]",3,1,-0.308623,0.7345,0.586,0.9206,0.00741
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,age,age,1,0.020592,1.0208,1.0134,1.0283,0.0
+strict_earliest_primary,strict_primary,CHARLS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,Intercept,Intercept,1,-4.612563,0.0099,0.0063,0.0156,0.0
+strict_earliest_primary,strict_primary,CHARLS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.2]",2,1,-0.26448,0.7676,0.6377,0.9239,0.005166
+strict_earliest_primary,strict_primary,CHARLS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.3]",3,1,-0.801893,0.4485,0.3729,0.5393,0.0
+strict_earliest_primary,strict_primary,CHARLS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,age,age,1,0.063504,1.0656,1.0578,1.0734,0.0
+strict_earliest_primary,strict_primary,ELSA,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,Intercept,Intercept,1,-6.673305,0.0013,0.0008,0.002,0.0
+strict_earliest_primary,strict_primary,ELSA,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.2]",2,1,0.166674,1.1814,0.9973,1.3994,0.053755
+strict_earliest_primary,strict_primary,ELSA,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.3]",3,1,0.390178,1.4772,1.1743,1.8584,0.000864
+strict_earliest_primary,strict_primary,ELSA,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.4]",4,1,0.750631,2.1183,1.68,2.671,0.0
+strict_earliest_primary,strict_primary,ELSA,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.5]",5,1,-0.06425,0.9378,0.7377,1.1922,0.599816
+strict_earliest_primary,strict_primary,ELSA,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,age,age,1,0.081805,1.0852,1.0775,1.0931,0.0
+strict_earliest_primary,strict_primary,HRS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,Intercept,Intercept,1,-4.901135,0.0074,0.0054,0.0102,0.0
+strict_earliest_primary,strict_primary,HRS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.2]",2,1,0.515459,1.6744,1.5121,1.8542,0.0
+strict_earliest_primary,strict_primary,HRS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.3]",3,1,0.651656,1.9187,1.6205,2.2718,0.0
+strict_earliest_primary,strict_primary,HRS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.4]",4,1,0.614373,1.8485,1.5319,2.2306,0.0
+strict_earliest_primary,strict_primary,HRS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.5]",5,1,0.347109,1.415,1.161,1.7245,0.000585
+strict_earliest_primary,strict_primary,HRS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,age,age,1,0.060062,1.0619,1.057,1.0669,0.0
+strict_earliest_primary,strict_primary,MHAS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,Intercept,Intercept,1,-4.568638,0.0104,0.0067,0.0162,0.0
+strict_earliest_primary,strict_primary,MHAS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.2]",2,1,0.468165,1.5971,1.3798,1.8485,0.0
+strict_earliest_primary,strict_primary,MHAS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.3]",3,1,0.780183,2.1819,1.7863,2.665,0.0
+strict_earliest_primary,strict_primary,MHAS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.4]",4,1,0.193133,1.213,0.9199,1.5997,0.171251
+strict_earliest_primary,strict_primary,MHAS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.5]",5,1,0.397068,1.4875,1.1631,1.9022,0.001555
+strict_earliest_primary,strict_primary,MHAS,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,age,age,1,0.051913,1.0533,1.046,1.0606,0.0
+strict_earliest_primary,strict_primary,SHARE,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,Intercept,Intercept,1,-1.464925,0.2311,0.1423,0.3753,0.0
+strict_earliest_primary,strict_primary,SHARE,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.2]",2,1,-25.313763,0.0,0.0,inf,0.99856
+strict_earliest_primary,strict_primary,SHARE,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.3]",3,1,3.497808,33.0429,27.3933,39.8577,0.0
+strict_earliest_primary,strict_primary,SHARE,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,"C(endotype_class, Treatment(reference='1'))[T.4]",4,1,4.738731,114.2891,88.0461,148.3539,0.0
+strict_earliest_primary,strict_primary,SHARE,functional_deterioration_ge_0_5sd,endotype_lowest_burden_reference,age_adjusted,age,age,1,-0.028068,0.9723,0.9647,0.98,0.0

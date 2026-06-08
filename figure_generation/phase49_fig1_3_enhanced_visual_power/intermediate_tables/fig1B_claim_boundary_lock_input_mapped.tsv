@@ -1,0 +1,8 @@
+cohort	role	construction	strict_lfo_validation	sensitivity_validation	baseline_only_or_unavailable	claim_boundary
+CHARLS	Strict-core	yes	yes	no	no	strict LFO validation
+ELSA	Strict-core	yes	yes	no	no	strict LFO validation
+HRS	Strict-core	yes	yes	no	no	strict LFO validation
+KLoSA	Functional bridge sensitivity	yes	no	yes	no	sensitivity only
+LASI	Baseline-only descriptive	yes	no	no	yes	baseline construction only
+MHAS	Strict-core	yes	yes	no	no	strict LFO validation
+SHARE	Validation-downgraded sensitivity	yes	no	yes	no	sensitivity only

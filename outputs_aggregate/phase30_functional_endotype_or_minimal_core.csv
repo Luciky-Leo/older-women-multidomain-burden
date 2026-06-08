@@ -1,0 +1,20 @@
+﻿cohort,class_id,class_label,clinical_family,class_pct,or,ci_low,ci_high,p_value
+KLoSA,KLoSA_C2,cardiometabolic-dominant intermediate-burden,Cardiometabolic dominant,34.99,1.3952,1.1957,1.628,2.3e-05
+KLoSA,KLoSA_C3,functional/cardiometabolic-dominant high-burden,Global high-burden,16.34,0.7328,0.584,0.9195,0.007268
+CHARLS,CHARLS_C2,elevated-burden severity-aligned,Mixed multidomain,11.41,0.7353,0.6104,0.8857,0.001204
+CHARLS,CHARLS_C3,functional-dominant high-burden,Functional-limitation dominant,15.17,0.4367,0.3631,0.5253,0.0
+ELSA,ELSA_C2,cardiometabolic-dominant intermediate-burden,Mixed multidomain,27.33,1.1297,0.9421,1.3546,0.188153
+ELSA,ELSA_C3,elevated-burden severity-aligned,Functional-limitation dominant,10.22,1.4422,1.1279,1.8442,0.00351
+ELSA,ELSA_C4,cardiometabolic-dominant elevated-burden,Cardiometabolic dominant,8.99,2.041,1.5893,2.621,0.0
+ELSA,ELSA_C5,functional-dominant high-burden,Functional-limitation dominant,10.8,0.8475,0.6574,1.0927,0.201862
+HRS,HRS_C2,cardiometabolic-dominant intermediate-burden,Cardiometabolic dominant,43.4,1.607,1.4494,1.7816,0.0
+HRS,HRS_C3,elevated-burden severity-aligned,Cardiometabolic dominant,8.53,1.7122,1.4426,2.0321,0.0
+HRS,HRS_C4,affective-dominant elevated-burden,Neuropsychological dominant,6.46,1.588,1.3124,1.9214,2e-06
+HRS,HRS_C5,functional-dominant high-burden,Functional-limitation dominant,6.36,1.1849,0.9692,1.4485,0.097914
+MHAS,MHAS_C2,cardiometabolic-dominant intermediate-burden,Mixed multidomain,33.67,1.5486,1.3366,1.7942,0.0
+MHAS,MHAS_C3,cardiometabolic-dominant elevated-burden,Cardiometabolic dominant,11.29,2.0886,1.7072,2.5554,0.0
+MHAS,MHAS_C4,functional-dominant elevated-burden,Functional-limitation dominant,6.94,1.1671,0.8839,1.5412,0.275888
+MHAS,MHAS_C5,functional-dominant elevated-burden,Functional-limitation dominant,7.72,1.4139,1.1047,1.8097,0.005951
+SHARE,SHARE_C2,cardiometabolic-dominant intermediate-burden,Cardiometabolic dominant,37.5,0.0,0.0,inf,0.998555
+SHARE,SHARE_C3,elevated-burden severity-aligned,Cardiometabolic dominant,12.78,32.0819,26.5488,38.7683,0.0
+SHARE,SHARE_C4,functional/cognitive/affective-dominant high-burden,Functional-limitation dominant,7.24,109.7972,84.0752,143.3885,0.0

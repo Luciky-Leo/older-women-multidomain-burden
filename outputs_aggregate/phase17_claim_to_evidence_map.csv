@@ -1,0 +1,6 @@
+claim_id,claim,evidence_assets,allowed_strength,required_caveat
+P17-C1,Women-only multidomain endotype profiles are available across seven cleaned aging cohorts.,phase11_table1_cohort_readiness.csv; phase16_table2_locked_labels.csv,descriptive,KLoSA and SHARE are bridge-sensitivity cohorts; LASI is baseline-profile only.
+P17-C2,"16 labels are draft-locked, but 10 still need review.",phase16_locked_label_dictionary.csv; phase17_label_review_packet.csv,process_guardrail,Do not treat review-required labels as final clinical labels.
+P17-C3,Functional deterioration is the primary validation endpoint in the current manuscript draft.,phase11_table3_outcome_validation_summary.csv; phase16_results_draft.md,primary_validation,Comparator results are endpoint- and cohort-specific.
+P17-C4,Mortality is secondary validation.,phase8_mortality_ph_diagnostics.csv; phase9_mortality_piecewise_stability.csv; phase14_endotype_effect_stability.csv,secondary_validation,"PH, piecewise, and covariate-sensitivity flags require caveated interpretation."
+P17-C5,"Endotypes should be framed as interpretable heterogeneity summaries, not universally superior prediction models.",phase11_table3_outcome_validation_summary.csv,main_guardrail,Four-domain continuous-score models generally outperform endotype-only models.

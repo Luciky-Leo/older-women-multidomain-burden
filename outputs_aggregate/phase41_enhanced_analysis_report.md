@@ -1,0 +1,13 @@
+# Phase 41 Enhanced Analyses
+
+This phase directly addresses the unresolved reviewer issues without upgrading unsupported evidence into primary claims.
+
+| Domain | Cohorts or denominator | Phase 41 analysis | Key result | Manuscript claim |
+|---|---|---|---|---|
+| All-cause mortality | 6 cohorts modelled; LASI unavailable | Covariate-adjusted Cox models using existing death-year/month screen. | 4 modelled cohorts had PH/time-drift guardrail flags; mortality stays secondary. | Secondary non-circular endpoint only; no primary validation claim. |
+| Hospitalization | CHARLS, HRS, MHAS, SHARE | Post-baseline candidate hospitalization logistic models where cleaned binary headers existed. | Header-only candidate evidence; institutional care and care dependence remained absent. | Sensitivity feasibility only until codebook mapping is completed. |
+| Survey design | no seven-cohort confirmed triplet | Raw/codebook/dofile audit for weight, PSU and strata mentions. | Candidate triplet evidence appeared in 4 cohorts, but no codebook-confirmed seven-cohort harmonized weight/PSU/strata triplet was available. | No survey-weighted prevalence or population estimate claim. |
+| All-sex sex interaction | CHARLS, ELSA, HRS, KLoSA, MHAS, SHARE | All-sex LFO severity-by-sex logistic interaction for functional deterioration. | 1 fitted cohort had nominal p<0.05 for the sex interaction on the all-sex scale. | Exploratory scale check; not evidence of women-specific mechanism. |
+| Calibration and decision curve | strict-core plus sensitivity rows | Calibration slope/intercept, Brier score and net benefit for profile versus continuous LFO models. | profile mean AUC 0.693; continuous mean AUC 0.701; continuous net benefit exceeded profile in 15/20 strict-core thresholds. | Prediction superiority remains unsupported. |
+
+Interpretation rule: mortality can be reported as a secondary non-circular endpoint; hospitalization remains header-only candidate evidence; survey-weighted models are not run without a confirmed weight/PSU/strata triplet; all-sex interaction models are exploratory scale checks.

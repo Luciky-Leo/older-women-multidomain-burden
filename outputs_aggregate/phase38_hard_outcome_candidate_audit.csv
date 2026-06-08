@@ -1,0 +1,23 @@
+﻿audit_type,cohort,concept,variable,raw_header,source_file,nonmissing_n,nonmissing_pct,sample_values,harmonization_status,decision
+hard_outcome,CHARLS,hospitalization,hospital_time,hospital_time (过去一年住院次数),/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/charls.csv,80241,83.04,0|1|3|2|8|15|6|4,candidate_header_only,requires cohort codebook mapping before analysis use
+hard_outcome,CHARLS,hospitalization,hospital,hospital (过去一年是否住院),/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/charls.csv,95899,99.25,0|1,candidate_header_only,requires cohort codebook mapping before analysis use
+hard_outcome,CHARLS,institutionalization,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/charls.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,CHARLS,care_dependence,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/charls.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,ELSA,hospitalization,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/elsa.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,ELSA,institutionalization,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/elsa.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,ELSA,care_dependence,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/elsa.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,HRS,hospitalization,hosp,hosp (过去2年是否住院),/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/hrs.csv,207463,99.42,0|1,candidate_header_only,requires cohort codebook mapping before analysis use
+hard_outcome,HRS,institutionalization,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/hrs.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,HRS,care_dependence,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/hrs.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,KLoSA,hospitalization,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/klosa.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,KLoSA,institutionalization,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/klosa.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,KLoSA,care_dependence,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/klosa.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,LASI,hospitalization,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/lasi.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,LASI,institutionalization,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/lasi.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,LASI,care_dependence,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/lasi.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,MHAS,hospitalization,hosp1y,hosp1y (过去12个月内是否至少有一次过夜住院),/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/mhas.csv,76353,99.8,0|1,candidate_header_only,requires cohort codebook mapping before analysis use
+hard_outcome,MHAS,institutionalization,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/mhas.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,MHAS,care_dependence,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/mhas.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,SHARE,hospitalization,hosp1y,hosp1y (过去12个月是否住院),/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/share.csv,325757,99.54,0|1,candidate_header_only,requires cohort codebook mapping before analysis use
+hard_outcome,SHARE,institutionalization,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/share.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis
+hard_outcome,SHARE,care_dependence,,,/mnt/e/Database/七大老年健康数据库数据/csv 版本 清洗后/share.csv,0,0.0,,no_cleaned_candidate,not available for current harmonized analysis

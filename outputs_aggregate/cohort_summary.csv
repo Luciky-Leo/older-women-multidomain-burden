@@ -1,0 +1,8 @@
+﻿cohort,file,rows,columns,waves,ragender_counts,gender_mapping_inference,age_variables_nonmissing
+CHARLS,charls.csv,96628,405,1;2;3;4;5,0:50762;1:45859;NA:7,likely_female=0; marker_nonmissing=0:39601/50762;1:36110/45859,age:96341
+ELSA,elsa.csv,90069,343,1;2;3;4;5;6;7;8;9,0:50170;1:39899,likely_female=0; marker_nonmissing=0:23430/50170;1:4/39899,agey:90068
+HRS,hrs.csv,208674,426,5;6;7;8;9;10;11;12;13;14;15,0:122602;1:86072,likely_female=0; marker_nonmissing=0:82577/122602;1:31/86072,ragey_b:208674;ragey_e:208674
+KLoSA,klosa.csv,44273,236,3;4;5;6;7;8,0:25374;1:18899,likely_female=0; marker_nonmissing=0:24879/25374;1:18462/18899,agey:44273
+LASI,lasi.csv,73408,331,,0:42265;1:31143,likely_female=0; marker_nonmissing=0:42106/42265;1:7/31143,r1agey:73408
+MHAS,mhas.csv,76506,242,1;2;3;4;5,0:44238;1:32268,likely_female=0; marker_nonmissing=0:44234/44238;1:32257/32268,agey:47586
+SHARE,share.csv,327266,228,1;2;4;5;6;7;8,0:184612;1:142654,likely_female=0; marker_nonmissing=0:121018/184612;1:94571/142654,agey:327248

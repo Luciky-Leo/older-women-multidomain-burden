@@ -1,0 +1,8 @@
+﻿cohort,weight_cleaned_candidate,weight_metadata_evidence,psu_cleaned_candidate,psu_metadata_evidence,strata_cleaned_candidate,strata_metadata_evidence,harmonized_triplet_status,analysis_decision
+CHARLS,1,1,1,1,1,0,no_codebook_confirmed_harmonized_triplet,survey-weighted model not run in Phase41
+ELSA,1,1,1,0,1,1,no_codebook_confirmed_harmonized_triplet,survey-weighted model not run in Phase41
+HRS,1,1,1,1,1,1,candidate_triplet_needs_manual_confirmation,survey-weighted model not run in Phase41
+KLoSA,1,1,1,1,1,1,candidate_triplet_needs_manual_confirmation,survey-weighted model not run in Phase41
+LASI,1,1,1,1,1,1,candidate_triplet_needs_manual_confirmation,survey-weighted model not run in Phase41
+MHAS,1,1,1,0,1,0,no_codebook_confirmed_harmonized_triplet,survey-weighted model not run in Phase41
+SHARE,1,1,1,1,1,1,candidate_triplet_needs_manual_confirmation,survey-weighted model not run in Phase41

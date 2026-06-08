@@ -1,0 +1,5 @@
+﻿reviewer_risk_area,phase47_enhancement,key_result,manuscript_implication
+GMM stability,Extended nonparametric bootstrap to 200 refits per selected solution.,Near-singular covariance guardrail remained present for selected full-covariance solutions.,Keep profile labels descriptive; do not claim stable latent endotypes.
+Women-only scope,All-sex LFO severity-by-sex interaction review table.,1 of 6 modelled cohorts had nominal interaction p<0.05.,"Use focused older-women framing, not women-specific mechanism language."
+Survey design,Cleaned-header plus metadata triplet availability summary.,4 cohorts had candidate triplets needing manual confirmation; no seven-cohort confirmed triplet.,No survey-weighted prevalence or population estimate claim.
+Hard endpoints,"Endpoint feasibility matrix across mortality, hospitalization, institutionalization and care-dependence.",Mortality formal secondary models in 6 cohorts; hospitalization candidate models in 4 cohorts; institutionalization/care-dependence unavailable.,Mortality remains secondary; hospitalization remains feasibility/sensitivity; no independent hard-outcome validation claim.

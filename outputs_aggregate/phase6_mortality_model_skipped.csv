@@ -1,0 +1,6 @@
+﻿analysis_set,analysis_tier,cohort,model_type,n,events,skip_reason
+strict_earliest_primary,strict_primary,LASI,severity_tertile,0,0,no_available_rows
+strict_earliest_primary,strict_primary,LASI,severity_score,0,0,no_available_rows
+strict_earliest_primary,strict_primary,LASI,four_domain_scores,0,0,no_available_rows
+strict_earliest_primary,strict_primary,LASI,endotype,0,0,no_available_rows
+strict_earliest_primary,strict_primary,LASI,endotype_plus_four_domains,0,0,no_available_rows

@@ -1,0 +1,61 @@
+﻿cohort,role,model_type,threshold,net_benefit,treat_all_net_benefit,treat_none_net_benefit
+CHARLS,strict-core,lfo_profile_adjusted,0.1,0.23324150596877868,0.23372994939726083,0.0
+CHARLS,strict-core,lfo_profile_adjusted,0.2,0.1439247406365395,0.13794619307191844,0.0
+CHARLS,strict-core,lfo_profile_adjusted,0.3,0.0692054560526514,0.014795649225049612,0.0
+CHARLS,strict-core,lfo_profile_adjusted,0.4,0.03212003985698375,-0.1494050759041088,0.0
+CHARLS,strict-core,lfo_profile_adjusted,0.5,0.010726217689467209,-0.3792860910849305,0.0
+CHARLS,strict-core,continuous_three_domain_adjusted,0.1,0.23427700603716076,0.23372994939726083,0.0
+CHARLS,strict-core,continuous_three_domain_adjusted,0.2,0.15100228591524528,0.13794619307191844,0.0
+CHARLS,strict-core,continuous_three_domain_adjusted,0.3,0.07638976110929689,0.014795649225049612,0.0
+CHARLS,strict-core,continuous_three_domain_adjusted,0.4,0.03370259656526581,-0.1494050759041088,0.0
+CHARLS,strict-core,continuous_three_domain_adjusted,0.5,0.008791981712678032,-0.3792860910849305,0.0
+ELSA,strict-core,lfo_profile_adjusted,0.1,0.1842028350138828,0.17628720346826443,0.0
+ELSA,strict-core,lfo_profile_adjusted,0.2,0.12335598421744849,0.07332310390179747,0.0
+ELSA,strict-core,lfo_profile_adjusted,0.3,0.08273313709525897,-0.05905930982651719,0.0
+ELSA,strict-core,lfo_profile_adjusted,0.4,0.047932193482390764,-0.23556919479760335,0.0
+ELSA,strict-core,lfo_profile_adjusted,0.5,0.012056115738711091,-0.482683033757124,0.0
+ELSA,strict-core,continuous_three_domain_adjusted,0.1,0.1838374981733158,0.17628720346826443,0.0
+ELSA,strict-core,continuous_three_domain_adjusted,0.2,0.1268632178868917,0.07332310390179747,0.0
+ELSA,strict-core,continuous_three_domain_adjusted,0.3,0.08692929166405712,-0.05905930982651719,0.0
+ELSA,strict-core,continuous_three_domain_adjusted,0.4,0.051001022943153576,-0.23556919479760335,0.0
+ELSA,strict-core,continuous_three_domain_adjusted,0.5,0.012713722051731692,-0.482683033757124,0.0
+HRS,strict-core,lfo_profile_adjusted,0.1,0.30681041593024627,0.30670437139154,0.0
+HRS,strict-core,lfo_profile_adjusted,0.2,0.23398727465535527,0.2200424178154825,0.0
+HRS,strict-core,lfo_profile_adjusted,0.3,0.16268747159521288,0.10861990607483712,0.0
+HRS,strict-core,lfo_profile_adjusted,0.4,0.0946624248851184,-0.03994344291269003,0.0
+HRS,strict-core,lfo_profile_adjusted,0.5,0.03732767762460233,-0.24793213149522803,0.0
+HRS,strict-core,continuous_three_domain_adjusted,0.1,0.3067515022976317,0.30670437139154,0.0
+HRS,strict-core,continuous_three_domain_adjusted,0.2,0.23616118769883354,0.2200424178154825,0.0
+HRS,strict-core,continuous_three_domain_adjusted,0.3,0.16971670958945614,0.10861990607483712,0.0
+HRS,strict-core,continuous_three_domain_adjusted,0.4,0.09646518204312476,-0.03994344291269003,0.0
+HRS,strict-core,continuous_three_domain_adjusted,0.5,0.045705196182396615,-0.24793213149522803,0.0
+KLoSA,bridge sensitivity,lfo_profile_adjusted,0.1,0.22042543325798414,0.2204254332579841,0.0
+KLoSA,bridge sensitivity,lfo_profile_adjusted,0.2,0.12297861241523214,0.12297861241523211,0.0
+KLoSA,bridge sensitivity,lfo_profile_adjusted,0.3,0.02481556002682761,-0.002310157239734767,0.0
+KLoSA,bridge sensitivity,lfo_profile_adjusted,0.4,0.004434011476264998,-0.1693618501130239,0.0
+KLoSA,bridge sensitivity,lfo_profile_adjusted,0.5,-0.0005216484089723527,-0.40323422013562865,0.0
+KLoSA,bridge sensitivity,continuous_three_domain_adjusted,0.1,0.22042543325798414,0.2204254332579841,0.0
+KLoSA,bridge sensitivity,continuous_three_domain_adjusted,0.2,0.12128325508607199,0.12297861241523211,0.0
+KLoSA,bridge sensitivity,continuous_three_domain_adjusted,0.3,0.03431701319025264,-0.002310157239734767,0.0
+KLoSA,bridge sensitivity,continuous_three_domain_adjusted,0.4,0.003738480264301857,-0.1693618501130239,0.0
+KLoSA,bridge sensitivity,continuous_three_domain_adjusted,0.5,0.0005216484089723527,-0.40323422013562865,0.0
+MHAS,strict-core,lfo_profile_adjusted,0.1,0.1834744203165256,0.18210444526234004,0.0
+MHAS,strict-core,lfo_profile_adjusted,0.2,0.11216415163783586,0.07986750092013256,0.0
+MHAS,strict-core,lfo_profile_adjusted,0.3,0.05044955044955045,-0.05157999894841997,0.0
+MHAS,strict-core,lfo_profile_adjusted,0.4,0.0021469758311863513,-0.22684333210648994,0.0
+MHAS,strict-core,lfo_profile_adjusted,0.5,-0.005888847994111154,-0.47221199852778795,0.0
+MHAS,strict-core,continuous_three_domain_adjusted,0.1,0.18359710464973625,0.18210444526234004,0.0
+MHAS,strict-core,continuous_three_domain_adjusted,0.2,0.11400441663599559,0.07986750092013256,0.0
+MHAS,strict-core,continuous_three_domain_adjusted,0.3,0.044744728955255275,-0.05157999894841997,0.0
+MHAS,strict-core,continuous_three_domain_adjusted,0.4,0.003067108330266216,-0.22684333210648994,0.0
+MHAS,strict-core,continuous_three_domain_adjusted,0.5,-0.006440927493559075,-0.47221199852778795,0.0
+SHARE,validation-downgraded sensitivity,lfo_profile_adjusted,0.1,0.047475906797107,0.027618370953343907,0.0
+SHARE,validation-downgraded sensitivity,lfo_profile_adjusted,0.2,0.015186915887850466,-0.0939293326774881,0.0
+SHARE,validation-downgraded sensitivity,lfo_profile_adjusted,0.3,0.004040475019324009,-0.250204951631415,0.0
+SHARE,validation-downgraded sensitivity,lfo_profile_adjusted,0.4,0.0007104989889052849,-0.45857244356998417,0.0
+SHARE,validation-downgraded sensitivity,lfo_profile_adjusted,0.5,0.00016396130513198886,-0.7502869322839809,0.0
+SHARE,validation-downgraded sensitivity,continuous_three_domain_adjusted,0.1,0.05497258202619738,0.027618370953343907,0.0
+SHARE,validation-downgraded sensitivity,continuous_three_domain_adjusted,0.2,0.029123626824069517,-0.0939293326774881,0.0
+SHARE,validation-downgraded sensitivity,continuous_three_domain_adjusted,0.3,0.015962804206778633,-0.250204951631415,0.0
+SHARE,validation-downgraded sensitivity,continuous_three_domain_adjusted,0.4,0.008553314751052084,-0.45857244356998417,0.0
+SHARE,validation-downgraded sensitivity,continuous_three_domain_adjusted,0.5,0.00409903262829972,-0.7502869322839809,0.0

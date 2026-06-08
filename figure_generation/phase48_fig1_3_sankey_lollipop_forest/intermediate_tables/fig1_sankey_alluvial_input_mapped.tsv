@@ -1,0 +1,8 @@
+cohort	role	source	complete	lfo	domain_loss	lfo_loss
+CHARLS	Strict-core	6878.0	6019.0	5687.0	859.0	332.0
+ELSA	Strict-core	6292.0	6104.0	4562.0	188.0	1542.0
+HRS	Strict-core	11005.0	10202.0	9430.0	803.0	772.0
+KLoSA	Functional bridge sensitivity	4344.0	4081.0	3834.0	263.0	247.0
+LASI	Baseline-only descriptive	28165.0	27433.0	0.0	732.0	27433.0
+MHAS	Strict-core	7440.0	6733.0	5434.0	707.0	1299.0
+SHARE	Validation-downgraded sensitivity	15814.0	15721.0	12198.0	93.0	3523.0

@@ -1,0 +1,13 @@
+﻿analysis_set,analysis_tier,cohort,outcome,model_type,n,events,event_pct,aic,auc,converged,candidate_status
+strict_earliest_primary,strict_primary,CHARLS,hospitalization_event,endotype_age,5709,2464,43.15992292870906,7749.8459952550165,0.5689584875832949,1,header-only; not codebook-confirmed
+strict_earliest_primary,strict_primary,CHARLS,hospitalization_event,severity_score_age,5709,2464,43.15992292870906,7654.413529976067,0.5985825470754207,1,header-only; not codebook-confirmed
+strict_earliest_primary,strict_primary,CHARLS,hospitalization_event,four_domain_scores_age,5709,2464,43.15992292870906,7594.120770517981,0.6145141501410762,1,header-only; not codebook-confirmed
+strict_earliest_primary,strict_primary,HRS,hospitalization_event,endotype_age,9473,7278,76.82888208592843,10056.25888810035,0.603105749470586,1,header-only; not codebook-confirmed
+strict_earliest_primary,strict_primary,HRS,hospitalization_event,severity_score_age,9473,7278,76.82888208592843,10128.973622987829,0.5901100204629548,1,header-only; not codebook-confirmed
+strict_earliest_primary,strict_primary,HRS,hospitalization_event,four_domain_scores_age,9473,7278,76.82888208592843,10022.119288763555,0.613276789475694,1,header-only; not codebook-confirmed
+strict_earliest_primary,strict_primary,MHAS,hospitalization_event,endotype_age,6283,2148,34.187490052522676,7977.171248321511,0.5727396931765214,1,header-only; not codebook-confirmed
+strict_earliest_primary,strict_primary,MHAS,hospitalization_event,severity_score_age,6283,2148,34.187490052522676,8016.052252396829,0.5573790979038458,1,header-only; not codebook-confirmed
+strict_earliest_primary,strict_primary,MHAS,hospitalization_event,four_domain_scores_age,6283,2148,34.187490052522676,7964.729059831924,0.5775061416485963,1,header-only; not codebook-confirmed
+strict_earliest_primary,strict_primary,SHARE,hospitalization_event,endotype_age,12174,4307,35.37867586660095,15579.341868237107,0.5932925872429464,1,header-only; not codebook-confirmed
+strict_earliest_primary,strict_primary,SHARE,hospitalization_event,severity_score_age,12174,4307,35.37867586660095,15606.480635416297,0.5948550001329569,1,header-only; not codebook-confirmed
+strict_earliest_primary,strict_primary,SHARE,hospitalization_event,four_domain_scores_age,12174,4307,35.37867586660095,15495.437140685226,0.6016764252481814,1,header-only; not codebook-confirmed

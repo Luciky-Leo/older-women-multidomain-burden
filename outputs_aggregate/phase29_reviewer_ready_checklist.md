@@ -1,0 +1,14 @@
+# Phase 29 Reviewer-Ready Checklist
+
+Date: 2026-06-01
+
+| Check | Status | Details |
+|---|---|---|
+| sex_coding_all_confirmed | pass | confirmed |
+| share_strict_functional_phase27_passed | pass | adl;iadl |
+| share_table1_strict_primary | pass | 1 |
+| lasi_validation_unavailable_not_zero_event_claim | pass | LASI shown as baseline-profile only with unavailable validation cells. |
+| no_linenumber_class_option | pass | \documentclass[referee,pdflatex,sn-vancouver-num]{sn-jnl} |
+| pdf_present | pass | manuscript/bmc_geriatrics_submission_reviewer_ready/bmc_geriatrics_main.pdf |
+| author_placeholders_remaining | needs_author_input | 5 |
+| policy_placeholders_remaining | needs_policy_decision | 1 |

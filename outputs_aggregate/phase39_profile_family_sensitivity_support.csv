@@ -1,0 +1,6 @@
+﻿clinical_family,sensitivity_classes,sensitivity_cohorts,sensitivity_n,mean_functional_z,mean_cognitive_z,mean_affective_z,mean_cardiometabolic_chronic_z,use_in_main_claim
+"Intermediate burden, CM spared",3,"KLoSA, LASI, SHARE",24579,-0.16432621750274623,-0.028364591724642986,-0.0918927132918345,-0.7757918222873185,no; sensitivity/descriptive support only
+"CM/chronic-high, function-spared",2,"LASI, SHARE",11537,-0.4871125682586461,-0.24472663604056513,-0.1061493715870677,0.7939447950073677,no; sensitivity/descriptive support only
+CM/chronic-high mixed,2,"KLoSA, LASI",7305,0.5169356057494866,0.06132386036960987,0.10524028747433263,0.9526862833675565,no; sensitivity/descriptive support only
+Severity-aligned burden,2,"KLoSA, SHARE",2676,0.6135941704035874,0.421793086696562,0.537117937219731,0.753759865470852,no; sensitivity/descriptive support only
+Functional-dominant high burden,1,SHARE,1138,2.941,1.6908,1.0327,0.7241,no; sensitivity/descriptive support only

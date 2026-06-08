@@ -1,0 +1,31 @@
+﻿analysis_set,analysis_tier,cohort,outcome,model_type,model_description,n,events,event_pct,median_followup_time_years,max_followup_time_years,log_likelihood,partial_aic,partial_bic
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,all_cause_mortality,severity_tertile,Age + severity tertile,3990,726,18.2,10.0,10.88,-5113.920957,10233.842,10252.717
+strict_earliest_primary,strict_primary,CHARLS,all_cause_mortality,severity_tertile,Age + severity tertile,5872,704,11.99,9.0,9.29,-5604.893985,11215.788,11235.822
+strict_earliest_primary,strict_primary,ELSA,all_cause_mortality,severity_tertile,Age + severity tertile,5237,353,6.74,12.0,17.0,-2674.403321,5354.807,5374.497
+strict_earliest_primary,strict_primary,HRS,all_cause_mortality,severity_tertile,Age + severity tertile,10044,5569,55.45,15.88,21.29,-45593.273617,91192.547,91214.191
+strict_earliest_primary,strict_primary,MHAS,all_cause_mortality,severity_tertile,Age + severity tertile,6487,2236,34.47,17.0,18.0,-17690.115965,35386.232,35406.565
+strict_earliest_primary,strict_primary,SHARE,all_cause_mortality,severity_tertile,Age + severity tertile,12960,3201,24.7,11.0,17.96,-25454.758816,50915.518,50937.926
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,all_cause_mortality,severity_score,Age + continuous mean severity score,3990,726,18.2,10.0,10.88,-5102.196108,10208.392,10220.975
+strict_earliest_primary,strict_primary,CHARLS,all_cause_mortality,severity_score,Age + continuous mean severity score,5872,704,11.99,9.0,9.29,-5592.882208,11189.764,11203.12
+strict_earliest_primary,strict_primary,ELSA,all_cause_mortality,severity_score,Age + continuous mean severity score,5237,353,6.74,12.0,17.0,-2662.548439,5329.097,5342.224
+strict_earliest_primary,strict_primary,HRS,all_cause_mortality,severity_score,Age + continuous mean severity score,10044,5569,55.45,15.88,21.29,-45536.258125,91076.516,91090.946
+strict_earliest_primary,strict_primary,MHAS,all_cause_mortality,severity_score,Age + continuous mean severity score,6487,2236,34.47,17.0,18.0,-17634.720449,35273.441,35286.996
+strict_earliest_primary,strict_primary,SHARE,all_cause_mortality,severity_score,Age + continuous mean severity score,12960,3201,24.7,11.0,17.96,-25381.854096,50767.708,50782.647
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,all_cause_mortality,four_domain_scores,Age + four baseline domain scores,3990,726,18.2,10.0,10.88,-5098.989096,10207.978,10239.436
+strict_earliest_primary,strict_primary,CHARLS,all_cause_mortality,four_domain_scores,Age + four baseline domain scores,5872,704,11.99,9.0,9.29,-5589.045358,11188.091,11221.48
+strict_earliest_primary,strict_primary,ELSA,all_cause_mortality,four_domain_scores,Age + four baseline domain scores,5237,353,6.74,12.0,17.0,-2654.757153,5319.514,5352.332
+strict_earliest_primary,strict_primary,HRS,all_cause_mortality,four_domain_scores,Age + four baseline domain scores,10044,5569,55.45,15.88,21.29,-45436.819751,90883.64,90919.713
+strict_earliest_primary,strict_primary,MHAS,all_cause_mortality,four_domain_scores,Age + four baseline domain scores,6487,2236,34.47,17.0,18.0,-17611.018862,35232.038,35265.926
+strict_earliest_primary,strict_primary,SHARE,all_cause_mortality,four_domain_scores,Age + four baseline domain scores,12960,3201,24.7,11.0,17.96,-25355.469022,50720.938,50758.286
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,all_cause_mortality,endotype,Age + endotype class,3990,726,18.2,10.0,10.88,-5133.116524,10272.233,10291.108
+strict_earliest_primary,strict_primary,CHARLS,all_cause_mortality,endotype,Age + endotype class,5872,704,11.99,9.0,9.29,-5613.818233,11233.636,11253.67
+strict_earliest_primary,strict_primary,ELSA,all_cause_mortality,endotype,Age + endotype class,5237,353,6.74,12.0,17.0,-2674.858435,5359.717,5392.534
+strict_earliest_primary,strict_primary,HRS,all_cause_mortality,endotype,Age + endotype class,10044,5569,55.45,15.88,21.29,-45724.305917,91458.612,91494.685
+strict_earliest_primary,strict_primary,MHAS,all_cause_mortality,endotype,Age + endotype class,6487,2236,34.47,17.0,18.0,-17654.268568,35318.537,35352.425
+strict_earliest_primary,strict_primary,SHARE,all_cause_mortality,endotype,Age + endotype class,12960,3201,24.7,11.0,17.96,-25412.074608,50832.149,50862.028
+functional_bridge_earliest_sensitivity,bridge_sensitivity,KLoSA,all_cause_mortality,endotype_plus_four_domains,Age + endotype class + four baseline domain scores,3990,726,18.2,10.0,10.88,-5095.072537,10204.145,10248.186
+strict_earliest_primary,strict_primary,CHARLS,all_cause_mortality,endotype_plus_four_domains,Age + endotype class + four baseline domain scores,5872,704,11.99,9.0,9.29,-5589.029497,11192.059,11238.805
+strict_earliest_primary,strict_primary,ELSA,all_cause_mortality,endotype_plus_four_domains,Age + endotype class + four baseline domain scores,5237,353,6.74,12.0,17.0,-2652.816303,5323.633,5382.704
+strict_earliest_primary,strict_primary,HRS,all_cause_mortality,endotype_plus_four_domains,Age + endotype class + four baseline domain scores,10044,5569,55.45,15.88,21.29,-45427.087703,90872.175,90937.108
+strict_earliest_primary,strict_primary,MHAS,all_cause_mortality,endotype_plus_four_domains,Age + endotype class + four baseline domain scores,6487,2236,34.47,17.0,18.0,-17603.474053,35224.948,35285.946
+strict_earliest_primary,strict_primary,SHARE,all_cause_mortality,endotype_plus_four_domains,Age + endotype class + four baseline domain scores,12960,3201,24.7,11.0,17.96,,,

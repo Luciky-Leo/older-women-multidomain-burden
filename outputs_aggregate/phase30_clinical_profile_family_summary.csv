@@ -1,0 +1,7 @@
+﻿clinical_family,n_classes,participants,cohorts,functional_event_pct_range,death_pct_range,clinical_reading
+Lower-burden / preserved-capacity,5,17583,"ELSA, HRS, KLoSA, MHAS, SHARE",4.1-27.0,2.9-36.6,"Clinically closest to a lower-burden reference group; use as within-cohort comparator, not as a disease-free group."
+Functional-limitation dominant,7,4970,"CHARLS, ELSA, HRS, MHAS, SHARE",23.4-75.9,11.7-79.8,ADL/IADL or mobility limitation is the leading signal; primary clinical reading is disability-risk stratification.
+Neuropsychological dominant,1,659,HRS,45.9-45.9,68.1-68.1,Cognitive performance or depressive-symptom burden dominates; interpret as neuropsychological vulnerability rather than pure physical frailty.
+Cardiometabolic dominant,9,27458,"ELSA, HRS, KLoSA, LASI, MHAS, SHARE",0.0-52.3,12.9-73.9,Chronic cardiometabolic burden dominates; interpret together with functional reserve and competing mortality risk.
+Global high-burden,1,667,KLoSA,25.2-25.2,39.7-39.7,"Concurrent functional, cognitive, affective and cardiometabolic burden; clinically resembles broad frailty or multidomain vulnerability."
+Mixed multidomain,5,24956,"CHARLS, ELSA, LASI, MHAS",25.9-32.7,6.0-32.0,No single domain fully explains the class; clinical interpretation should use the full four-domain profile.

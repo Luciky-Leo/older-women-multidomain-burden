@@ -1,0 +1,8 @@
+﻿cohort,female_complete_n,male_complete_n,female_minus_male_age_mean,status,female_minus_male_functional_mean_z,female_minus_male_cognitive_mean_z,female_minus_male_affective_mean_z,female_minus_male_cardiometabolic_chronic_mean_z
+CHARLS,6019,5957,0.01,baseline_comparator_only,0.154,0.484,0.319,0.138
+ELSA,6104,5054,0.59,baseline_comparator_only,0.027,-0.133,0.238,-0.056
+HRS,10202,6775,0.4,baseline_comparator_only,0.109,-0.129,0.249,-0.098
+KLoSA,4081,3107,0.91,baseline_comparator_only,0.758,0.381,0.221,0.066
+LASI,27433,24208,-0.56,baseline_comparator_only,0.244,0.552,0.126,0.07
+MHAS,6733,5463,-0.37,baseline_comparator_only,0.119,-0.173,0.408,0.295
+SHARE,15721,13231,0.47,baseline_comparator_only,0.135,0.072,0.404,-0.027
