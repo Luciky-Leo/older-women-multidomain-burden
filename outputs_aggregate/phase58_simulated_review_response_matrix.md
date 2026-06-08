@@ -6,7 +6,7 @@ Source review: `C:\Users\luff9\Downloads\simulated_review_bmc_womens_health_2026
 
 | Review issue | Action taken | Evidence |
 |---|---|---|
-| Verify Zenodo/GitHub links | GitHub public page checked; DOI updated to Zenodo record `20596200` | `manuscript/bmc_womens_health_submission_upload_20260608_phase58/README_UPLOAD.md` |
+| Verify Zenodo/GitHub links | GitHub public page checked; DOI updated to Zenodo record `20596726` | `manuscript/bmc_womens_health_submission_upload_20260608_phase58/README_UPLOAD.md` |
 | Person-specific author contributions | Replaced generic contribution paragraph with person-specific roles for FL, JC, JS, LL and RG | `bmc_womens_health_main.tex`, Authors' contributions |
 | Remove build artifacts from upload set | Rebuilt clean upload directory and zips using curated file lists only | `manuscript/bmc_womens_health_submission_upload_20260608_phase58/` |
 | Strengthen BMC Women's Health fit | Added explicit non-mechanistic women's-health rationale and clarified lack of harmonized reproductive/menopausal/gynaecologic exposures | Abstract, Background, cover letter |

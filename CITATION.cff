@@ -15,8 +15,8 @@ authors:
   - family-names: Li
     given-names: Li
 repository-code: "https://github.com/Luciky-Leo/older-women-multidomain-burden"
-doi: "10.5281/zenodo.20596200"
-url: "https://doi.org/10.5281/zenodo.20596200"
+doi: "10.5281/zenodo.20596726"
+url: "https://doi.org/10.5281/zenodo.20596726"
 abstract: "Public code, aggregate non-identifying outputs, supplementary workbooks, and figure-generation materials for a seven-cohort descriptive audit of multidomain burden among midlife and older women."
 keywords:
   - ageing
