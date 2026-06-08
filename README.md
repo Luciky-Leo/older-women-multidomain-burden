@@ -64,7 +64,7 @@ notes.
 
 ## Suggested Citation
 
-Lu F, Chen J, Shen J, Guan R, Li L. Code and aggregate materials for
+Lu F, Chen J, Shen J, Li L, Guan R. Code and aggregate materials for
 multidomain burden among older women across seven international ageing cohorts.
 Zenodo. v1.0.0-submission. https://doi.org/10.5281/zenodo.20587537.
 

@@ -13,8 +13,8 @@ v1.0.0-submission
 - Feifan Lu
 - Jun Chen
 - Jizi Shen
-- Rui Guan
 - Li Li
+- Rui Guan
 
 ## Description
 
