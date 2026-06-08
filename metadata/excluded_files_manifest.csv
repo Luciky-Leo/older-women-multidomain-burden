@@ -27,7 +27,10 @@ output,/mnt/e/Reserch/Older women/outputs/phase42_persist_full_pool_scored.tsv,1
 output,/mnt/e/Reserch/Older women/outputs/phase4_best_model_assignments.csv,14394636,restricted-risk filename pattern: assignment
 output,/mnt/e/Reserch/Older women/outputs/phase58_figure2_preview.png,110832,not selected for aggregate public package
 output,/mnt/e/Reserch/Older women/outputs/phase58_table1_preview.png,212303,not selected for aggregate public package
+output,/mnt/e/Reserch/Older women/outputs/phase59_pre_submission_reaudit_bmc_womens_health.md,5715,internal review/workflow file pattern: pre_submission
 output,/mnt/e/Reserch/Older women/outputs/phase5_participant_outcome_screen.csv,26965235,restricted-risk filename pattern: participant
+output,/mnt/e/Reserch/Older women/outputs/phase60_reviewer_risk_mitigation_action_matrix.csv,2011,internal review/workflow file pattern: risk_mitigation
+output,/mnt/e/Reserch/Older women/outputs/phase60_reviewer_risk_mitigation_feasibility.md,6087,internal review/workflow file pattern: risk_mitigation
 output,/mnt/e/Reserch/Older women/outputs/phase6_mortality_participant_screen.csv,18601389,restricted-risk filename pattern: participant
 output,/mnt/e/Reserch/Older women/outputs/phase7_aic_delta_vs_four_domain_scores.csv,1173,restricted-risk filename pattern: domain_scores
 script,/mnt/e/Reserch/Older women/scripts/apply_openai_s5_direct.py,3281,"generative image application helper, not needed for analysis reproduction"
@@ -39,4 +42,4 @@ script,/mnt/e/Reserch/Older women/scripts/build_phase30_clinical_upgrade_package
 script,/mnt/e/Reserch/Older women/scripts/build_phase32_bmc_rescue_package.py,33004,outdated provenance wording
 script,/mnt/e/Reserch/Older women/scripts/build_phase40_claude_revised_package.py,63465,internal review/workflow file pattern: claude
 script,/mnt/e/Reserch/Older women/scripts/build_phase46_simulated_review_revision.py,53218,outdated provenance wording
-script,/mnt/e/Reserch/Older women/scripts/build_phase56_public_reproducibility_release.py,26807,outdated provenance wording
+script,/mnt/e/Reserch/Older women/scripts/build_phase56_public_reproducibility_release.py,26867,outdated provenance wording
