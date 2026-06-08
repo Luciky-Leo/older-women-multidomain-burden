@@ -1,4 +1,7 @@
 category,source_path,bytes,reason
+output,/mnt/e/Reserch/Older women/outputs/bmc_womens_health_box1_actual_preview.png,208686,not selected for aggregate public package
+output,/mnt/e/Reserch/Older women/outputs/bmc_womens_health_box1_preview.png,207389,not selected for aggregate public package
+output,/mnt/e/Reserch/Older women/outputs/bmc_womens_health_table5_page15_preview.png,173271,not selected for aggregate public package
 output,/mnt/e/Reserch/Older women/outputs/phase13_covariate_participant_screen.csv,14164955,restricted-risk filename pattern: participant
 output,/mnt/e/Reserch/Older women/outputs/phase23_bmc_declarations_completion_template.csv,2496,outdated provenance wording
 output,/mnt/e/Reserch/Older women/outputs/phase31_claude_nature_communications_review_packet.md,13858,internal review/workflow file pattern: claude

@@ -37,7 +37,7 @@
 
 \section{Background}\label{sec:background}
 
-Women's health research has historically emphasized reproductive health, cancer, mental health and selected chronic conditions, but health after midlife also depends on how functional ability, cognitive reserve, affective symptoms and chronic disease burden accumulate together. Functional ability, intrinsic capacity and multimorbidity are central to health-system planning for ageing populations \cite{who2015worldreport,who2017icope,cesari2018evidence,barnett2012multimorbidity}. Frailty phenotypes and deficit-accumulation indices summarize vulnerability \cite{fried2001frailty,rockwood2007frailty,clegg2013frailty}, but they can compress clinically different domain patterns into a single severity continuum.
+Women's health research has historically emphasized reproductive health, cancer, mental health and selected chronic conditions, but health after midlife also depends on how functional ability, cognitive reserve, affective symptoms and chronic disease burden accumulate together. A women's health framing after midlife is therefore not limited to reproductive or cancer outcomes; it also includes capacity, disability, mental health and chronic-disease burden that shape independence and care needs. Functional ability, intrinsic capacity and multimorbidity are central to health-system planning for ageing populations \cite{who2015worldreport,who2017icope,cesari2018evidence,barnett2012multimorbidity}. Frailty phenotypes and deficit-accumulation indices summarize vulnerability \cite{fried2001frailty,rockwood2007frailty,clegg2013frailty}, but they can compress clinically different domain patterns into a single severity continuum.
 
 This study is intentionally scoped to women aged 50 years or older. This midlife-and-older threshold captures the transition into later-life health-risk accumulation while retaining comparability across the available ageing cohorts. Women have longer survival, higher late-life disability burden and different patterns of affective symptoms, multimorbidity and care needs \cite{crimmins2011gender}. Exploratory all-sex LFO severity-by-sex interaction screens were fitted on a separately standardized all-sex scale; only one of six modelled cohorts had a nominal interaction signal, so these analyses do not support a consistent women-specific mechanism. The women-only design is therefore framed as a focused women's-health population study, not as evidence that the observed patterns are unique to women.
 
@@ -194,7 +194,7 @@ SHARE & validation-down & 12,952; 3,198 deaths (24.7\%); 11.0 y & C4 HR 2.70 (2.
 
 \subsection{Harmonization, hard-outcome and survey-design guardrails}
 
-The harmonization matrix remained central to interpretation (Figure~\ref{fig:harmonization-risk}). Functional-domain strictness differed across cohorts: CHARLS used IADL-only information, HRS used ADL-only information, KLoSA used a bridge proxy and SHARE remained validation-downgraded. Cognitive batteries were cohort-specific, SHARE affective symptoms used EURO-D, and cardiometabolic/chronic disease indicators differed in lipid/cholesterol availability. Raw/codebook/dofile auditing identified candidate weight, primary sampling unit and strata triplets in HRS, KLoSA, LASI and SHARE, but no codebook-confirmed harmonized seven-cohort survey-design triplet was available, so no survey-weighted prevalence claim is made. The all-sex interaction review found one nominal LFO severity-by-sex interaction among six modelled cohorts, which supports the focused women-only scope but not a consistent women-specific mechanism. Hospitalization candidate models were feasible only where cleaned binary headers existed and remain header-only sensitivity evidence until codebook mapping is completed; institutionalization and care-dependence endpoints remained unavailable. Table~\ref{tab:clinical-interpretation} summarizes the clinical interpretation and non-claims for a women's health readership. The full workflow and supplementary profile displays are embedded after the references as Supplementary Figures S1-S5.
+The harmonization matrix remained central to interpretation (Figure~\ref{fig:harmonization-risk}). Functional-domain strictness differed across cohorts: CHARLS used IADL-only information, HRS used ADL-only information, KLoSA used a bridge proxy and SHARE remained validation-downgraded. Cognitive batteries were cohort-specific, SHARE affective symptoms used EURO-D, and cardiometabolic/chronic disease indicators differed in lipid/cholesterol availability. Raw/codebook/dofile auditing identified candidate weight, primary sampling unit and strata triplets in HRS, KLoSA, LASI and SHARE, but no codebook-confirmed harmonized seven-cohort survey-design triplet was available, so no survey-weighted prevalence claim is made. The all-sex interaction review found one nominal LFO severity-by-sex interaction among six modelled cohorts, which supports the focused women-only scope but not a consistent women-specific mechanism. Hospitalization candidate models were feasible only where cleaned binary headers existed and remain header-only sensitivity evidence until codebook mapping is completed; institutionalization and care-dependence endpoints remained unavailable. These guardrails inform the clinical interpretation and claim boundaries summarized in Box 1 in the Discussion. The full workflow and supplementary profile displays are embedded after the references as Supplementary Figures S1-S5.
 
 \begin{figure}[htbp]
 \centering
@@ -203,32 +203,33 @@ The harmonization matrix remained central to interpretation (Figure~\ref{fig:har
 \label{fig:harmonization-risk}
 \end{figure}
 
-\FloatBarrier
-
-\begin{table}[!htbp]
-\singlespacing
-\caption{Clinical interpretation and non-claims for women's health research}\label{tab:clinical-interpretation}
-\scriptsize
-\setlength{\tabcolsep}{4pt}
-\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.24\textwidth}>{\raggedright\arraybackslash}p{0.34\textwidth}>{\raggedright\arraybackslash}p{0.30\textwidth}@{}}
-\toprule
-Finding & Interpretation for midlife and older women's health & What should not be concluded\\
-\midrule
-Four-domain burden patterns can be described across seven cohorts & Functional limitation, cognitive burden, affective symptoms and cardiometabolic/chronic burden can be mapped jointly rather than treated as isolated conditions. & The profiles are not instrument-identical, survey-weighted population prevalence estimates or proof of universal cross-national classes.\\
-Categorical profiles were numerically fragile & Profile labels are useful as descriptive communication aids and for auditing heterogeneity. & The selected Gaussian mixture classes should not be interpreted as stable latent endotypes or transportable clinical risk tools.\\
-Continuous LFO domain scores matched or exceeded categorical profiles for functional-change modelling & Continuous cognitive, affective and cardiometabolic/chronic burden scores should remain the preferred analytic scale for functional-change models in this package. & The analysis does not show categorical prediction superiority or justify replacing continuous multidomain scores with classes.\\
-Functional-change gradients and secondary mortality gradients were observed & The direction of association is clinically coherent and supports further work with independent follow-up endpoints. & Functional change remains partly coupled to baseline functional constructs, and mortality is a secondary guardrail with proportional-hazards/time-drift flags.\\
-Women-only analyses were prespecified for this descriptive package & The study provides a focused midlife-and-older women's health map of multidomain burden and its measurement caveats. & The all-sex interaction screen does not establish a consistent women-specific biological mechanism.\\
-\botrule
-\end{tabular}
-\footnotetext{LFO = leave-functional-domain-out. This table is a claim-calibration summary derived from the main analyses and supplementary guardrail audits; it is not a separate statistical model.}
-\end{table}
-
-\FloatBarrier
-
 \section{Discussion}\label{sec:discussion}
 
 This manuscript is deliberately scoped as a harmonized descriptive audit and cautionary profile-stability analysis for midlife and older women's health research. The seven-cohort comparison shows that multidomain burden among women aged 50 years or older can be summarized and audited, but the selected categorical partitions are not robust enough to be interpreted as stable endotypes or transportable risk tools. The main positive contribution is transparent measurement and denominator mapping across several major ageing cohorts; the main cautionary finding is that categorical profile solutions are numerically fragile and do not improve on continuous domain scores for the current functional-change endpoint.
+
+\begin{center}
+\setlength{\fboxsep}{8pt}
+\fbox{%
+\begin{minipage}{0.94\textwidth}
+\singlespacing
+\scriptsize
+\textbf{Box 1. Clinical interpretation and claim boundaries for women's health research}\par
+\vspace{4pt}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{0.21\linewidth}>{\raggedright\arraybackslash}p{0.39\linewidth}>{\raggedright\arraybackslash}p{0.32\linewidth}@{}}
+\toprule
+Evidence anchor & Interpretation & Boundary\\
+\midrule
+Table~\ref{tab:baseline-clinical} and Figure~\ref{fig:cohort-flow} & A large midlife-and-older women analytic sample can be described with explicit denominator attrition and tier membership. & Counts are analytic-sample summaries, not survey-weighted population prevalence estimates.\\
+Table~\ref{tab:stability} and Figure~\ref{fig:stability} & Categorical profiles can summarize multidomain burden patterns and support communication. & Full-covariance GMM solutions were numerically fragile and should not be treated as stable latent endotypes or transportable risk tools.\\
+Table~\ref{tab:lfo-functional}, Figure~\ref{fig:lfo-functional} and Additional file 3 & Continuous LFO cognitive, affective and cardiometabolic/chronic scores matched or exceeded categorical profiles for functional-change modelling. & The analysis does not show categorical prediction superiority; continuous domain scores remain the preferred analytic scale in this package.\\
+Table~\ref{tab:mortality-secondary}, Figure~\ref{fig:harmonization-risk} and Additional files 4-5 & Secondary mortality gradients and harmonization/survey-design audits provide clinically relevant guardrails for further work. & Mortality remains secondary, hard-endpoint harmonization is incomplete and the all-sex interaction screen does not establish a consistent women-specific mechanism.\\
+\botrule
+\end{tabular}
+\vspace{4pt}
+\par\footnotesize LFO = leave-functional-domain-out. This box is a discussion-level claim-calibration summary, not a separate statistical model.
+\end{minipage}}
+\end{center}
 
 The functional-change analysis should be interpreted conservatively. The LFO approach reduces predictor-side endpoint coupling by removing baseline function from the profile-construction step, but the outcome remains a within-domain change score rather than an independent hard clinical endpoint. The observed risk gradients therefore support exploratory within-cohort association, not validation of the four-domain descriptive patterns. This limitation is especially important because the formal secondary mortality analyses show that clinically more independent endpoints are partly feasible, while also demonstrating why mortality must remain secondary in this package because several cohorts triggered proportional-hazards or time-drift guardrails.
 
